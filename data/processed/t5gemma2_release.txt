@@ -1,0 +1,52 @@
+Title: T5Gemma 2 — Google DeepMind Encoder-Decoder Models
+Source: https://deepmind.google/models/gemma/t5gemma/
+Source Type: Official Google DeepMind Model Page
+Category: Google Gemma Updates, LLM / Foundation Models, Fine-tuning / Inference / Serving
+Date: December 18, 2025
+
+T5Gemma 2 is a family of open encoder-decoder Transformer checkpoints built by Google DeepMind, representing a significant architectural departure from the standard decoder-only Gemma models.
+
+Architecture Overview:
+- Encoder-decoder architecture (unlike standard Gemma which is decoder-only)
+- Built by adapting Gemma 3 pretrained weights into encoder-decoder layout
+- Continued pretraining with UL2 (Unified Language Learning) objective
+- Tied embeddings between encoder and decoder
+- Merged decoder self-attention and cross-attention for parameter efficiency
+
+Key Innovations in T5Gemma 2:
+1. First encoder-decoder model with multimodal inputs
+2. Ultra-long context window: 128K tokens
+3. Multilingual support inherited from Gemma 3
+4. Same memory footprint as Gemma 3 despite additional capabilities
+5. More active capabilities enabled by architectural changes
+
+Why Encoder-Decoder Architecture:
+- Encoder-decoder models have historically excelled at:
+  - Machine translation
+  - Text summarization
+  - Question answering
+  - Sequence-to-sequence tasks
+- T5Gemma 2 revives this architecture with modern capabilities
+- Provides an alternative to decoder-only models for specific task types
+
+Multimodal Capabilities:
+- Supports multimodal inputs (text + images)
+- First encoder-decoder model to achieve this combination
+- Enables vision-language tasks with encoder-decoder efficiency
+
+Deployment Advantages:
+- Efficient for tasks requiring full input understanding before generation
+- Better suited for tasks where the entire input must be processed before output
+- Parameter efficiency through tied embeddings and merged attention
+
+Comparison with Standard Gemma 3:
+- Same base technology (Gemma 3 weights)
+- Different architecture (encoder-decoder vs decoder-only)
+- Better for structured prediction tasks
+- Potentially more efficient for translation and summarization
+
+Significance for AI Rapid Evolution:
+- Demonstrates Google's exploration of multiple architectural paradigms simultaneously
+- Shows how pretrained weights can be repurposed for different architectures
+- Represents the trend of architectural diversity in the open-source ecosystem
+- Released just 9 months after Gemma 3, showing rapid iteration pace

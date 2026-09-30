@@ -1,0 +1,55 @@
+Title: DeepSeek R1 and the Cost Revolution in AI (January 2025)
+Source: https://solvedtogether.co.uk/blog/latest-ai-advancements (and related coverage)
+Source Type: Technical Analysis Article
+Category: LLM / Foundation Models, Trend Signals / Important Releases
+Date: January 2025
+
+DeepSeek's R1 model, released in January 2025, disrupted the AI industry by achieving performance comparable to leading Western models at dramatically lower training and inference costs.
+
+What is DeepSeek R1:
+- Open-source reasoning model from Chinese AI lab DeepSeek
+- Achieves performance comparable to OpenAI o1 on reasoning benchmarks
+- Training cost estimated at ~$5.6 million (vs. hundreds of millions for comparable Western models)
+- Released with full weights and technical report
+- Available on Hugging Face
+
+Key Technical Innovations:
+1. Reinforcement Learning from scratch: trained reasoning capabilities via RL without supervised fine-tuning
+2. Group Relative Policy Optimization (GRPO): efficient RL algorithm
+3. Chain-of-thought reasoning: extended thinking before answering
+4. Mixture-of-Experts architecture: efficient parameter utilization
+5. Distillation: smaller DeepSeek-R1 distilled models (1.5B to 70B)
+
+Performance Benchmarks:
+- AIME 2024 (math): 79.8% (comparable to OpenAI o1)
+- MATH-500: 97.3%
+- Codeforces: 96.3rd percentile
+- MMLU: 90.8%
+- Competitive with GPT-4o and Claude 3.5 Sonnet on many tasks
+
+Why DeepSeek R1 Shocked the Industry:
+1. Cost efficiency: frontier performance at 1/10th the assumed cost
+2. Open weights: full model weights released publicly
+3. Reproducibility: detailed technical report enabled replication
+4. Challenged assumptions: showed that massive compute is not required for frontier AI
+5. Geopolitical implications: demonstrated non-US labs can reach frontier
+
+Impact on AI Ecosystem:
+- Triggered re-evaluation of AI development cost assumptions
+- Accelerated open-source reasoning model development
+- Inspired distilled versions (DeepSeek-R1-Distill-Llama, DeepSeek-R1-Distill-Qwen)
+- Showed that RL-based reasoning training is accessible to smaller labs
+- Caused significant stock market reactions in AI-adjacent companies
+
+The Rapid Iteration Context:
+- DeepSeek V2 (May 2024) → DeepSeek V3 (December 2024) → DeepSeek R1 (January 2025)
+- Three major releases in 8 months
+- Each release significantly advanced the state of the art
+- Demonstrates the global, distributed nature of AI progress
+- No single lab or country controls the pace of advancement
+
+Implications for Knowledge Management:
+- A model that didn't exist in December 2024 became a top-tier option by February 2025
+- Researchers who weren't tracking Chinese AI labs missed a major development
+- Highlights the need for comprehensive, multi-source knowledge tracking
+- Traditional academic channels (peer review) too slow to capture this pace

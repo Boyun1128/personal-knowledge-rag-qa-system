@@ -1,0 +1,56 @@
+Title: Gemma on Google Cloud Vertex AI — Deployment and Inference
+Source: https://cloud.google.com/blog/products/ai-machine-learning/gemma-model-available-in-vertex-ai-and-via-gke
+Source Type: Official Google Cloud Blog
+Category: Google Gemma Updates, Fine-tuning / Inference / Serving
+Date: February 21, 2024 (original), updated for Gemma 3 March 2025
+
+Google announced that Gemma models are available on Vertex AI and via Google Kubernetes Engine (GKE), enabling enterprise-grade deployment of open-weight models.
+
+Vertex AI Integration:
+- Gemma available in Vertex AI Model Garden
+- End-to-end ML platform for tuning, managing, and monitoring
+- Reduces operational overhead for model deployment
+- Supports creating bespoke fine-tuned versions of Gemma
+- vLLM-based deployment for optimized inference
+
+Gemma 3 on Vertex AI (March 2025):
+Source: https://cloud.google.com/blog/products/ai-machine-learning/announcing-gemma-3-on-vertex-ai
+- Easy-to-use vLLM-based deployment
+- Maximizes throughput and minimizes latency
+- Scalable endpoints for Gemma 3 applications
+- Supports all Gemma 3 sizes (1B, 4B, 12B, 27B)
+
+Deployment Options:
+1. Vertex AI Endpoints: Managed, scalable, production-ready
+2. GKE (Google Kubernetes Engine): Custom deployment with full control
+3. Model Garden: Discovery, fine-tuning, and deployment in one place
+
+Fine-tuning on Vertex AI:
+- Supervised fine-tuning (SFT) support
+- Parameter-efficient fine-tuning (PEFT/LoRA)
+- Custom dataset integration
+- Managed training infrastructure
+
+Inference Optimization:
+- vLLM integration for high-throughput serving
+- PagedAttention for efficient memory management
+- Continuous batching for improved GPU utilization
+- TPU-backed endpoints available for cost optimization
+
+GPU and TPU Options:
+- GPU-backed endpoints: NVIDIA L4, A100, H100
+- TPU-backed endpoints: TPU v4, v5e
+- Automatic scaling based on traffic
+
+Why This Matters:
+- Gemma is not just a research model — it's production-ready
+- Enterprise teams can deploy Gemma without managing infrastructure
+- Enables fine-tuning on proprietary data with enterprise security
+- Demonstrates Google's commitment to making open models enterprise-viable
+- Shows the trend: open-weight models are now first-class citizens in cloud platforms
+
+Model Garden (200+ Models):
+- Vertex AI Model Garden now hosts 200+ validated open models
+- Includes Gemma, Qwen, DeepSeek, Llama, and more
+- Standardized discovery, fine-tuning, and deployment workflow
+- Reduces time from model selection to production endpoint

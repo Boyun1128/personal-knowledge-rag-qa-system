@@ -1,0 +1,108 @@
+Title: LLM Benchmarks and Evaluation Frameworks in 2025
+Source: Multiple sources including Hugging Face Open LLM Leaderboard, LMSYS Chatbot Arena
+Source Type: Technical Overview
+Category: Evaluation / Benchmark / Observability
+Date: 2025
+
+Evaluating LLMs has become increasingly complex as models improve and traditional benchmarks saturate. This document covers the key benchmarks, leaderboards, and evaluation frameworks used in 2025.
+
+Major Benchmarks:
+
+MMLU (Massive Multitask Language Understanding):
+- 57 subjects across STEM, humanities, social sciences
+- Standard for measuring general knowledge
+- Status: approaching saturation for frontier models (90%+ scores)
+- GPT-4o: 88.1%, DeepSeek-V3: 88.5%, Gemma 4: competitive
+
+HumanEval / MBPP:
+- Code generation benchmarks
+- Python function completion
+- Status: frontier models achieve 80-90%+
+- Newer: LiveCodeBench (contamination-resistant)
+
+MATH / AIME:
+- Mathematical reasoning
+- AIME 2024: DeepSeek-R1 79.8%, OpenAI o1 comparable
+- Harder than MMLU for current models
+
+GSM8K:
+- Grade school math word problems
+- Now largely solved by frontier models (95%+)
+
+BIG-Bench Hard:
+- Challenging reasoning tasks
+- More resistant to saturation
+
+HELM (Holistic Evaluation of Language Models):
+- Stanford's comprehensive evaluation framework
+- Multiple dimensions: accuracy, calibration, robustness, fairness
+- More holistic than single-metric benchmarks
+
+Leaderboards:
+
+Hugging Face Open LLM Leaderboard:
+- URL: huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
+- Focuses on open-source models
+- Standardized evaluation across multiple benchmarks
+- Updated continuously as new models are submitted
+- Key signal for open-source model quality
+
+LMSYS Chatbot Arena:
+- URL: chat.lmsys.org
+- Human preference-based evaluation (Elo rating)
+- Real users compare model outputs
+- More aligned with real-world utility than academic benchmarks
+- Includes both open and closed models
+
+Papers With Code:
+- URL: paperswithcode.com
+- Tracks state-of-the-art across all ML tasks
+- Links papers to code implementations
+- Essential for tracking research progress
+
+Evaluation Challenges:
+
+Benchmark Contamination:
+- Training data may include benchmark test sets
+- Models may "memorize" answers rather than generalize
+- Solutions: held-out test sets, dynamic benchmarks
+
+Benchmark Gaming:
+- Models optimized specifically for benchmarks
+- May not reflect real-world performance
+- Human evaluation (Chatbot Arena) more robust
+
+Evaluation Frameworks:
+
+RAGAS (RAG Assessment):
+- Specifically for RAG system evaluation
+- Metrics: faithfulness, answer relevance, context precision, context recall
+- Open-source Python library
+
+TruLens:
+- LLM application evaluation
+- Feedback functions for quality assessment
+- Integrates with LangChain, LlamaIndex
+
+DeepEval:
+- Comprehensive LLM evaluation framework
+- Multiple metrics: hallucination, toxicity, bias
+- CI/CD integration for automated testing
+
+Observability Tools:
+
+LangSmith (LangChain):
+- Tracing and monitoring for LLM applications
+- Debug complex agent workflows
+- Production monitoring
+
+Weights & Biases (W&B):
+- ML experiment tracking
+- LLM fine-tuning monitoring
+- Prompt management
+
+The Evaluation Landscape is Evolving:
+- New benchmarks created monthly to stay ahead of model capabilities
+- Human evaluation becoming more important as benchmarks saturate
+- Multi-dimensional evaluation replacing single-metric comparisons
+- Real-world task performance increasingly valued over academic benchmarks

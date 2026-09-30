@@ -1,0 +1,98 @@
+Title: Multimodal AI Models: Vision, Audio, and Beyond (2024-2025)
+Source: Multiple official sources and technical reviews
+Source Type: Technical Overview
+Category: Multimodal Models, LLM / Foundation Models
+Date: 2024-2025
+
+Multimodal AI models that process multiple input types (text, images, audio, video) have become mainstream in 2024-2025, with capabilities previously only available in specialized systems now integrated into general-purpose models.
+
+Major Multimodal Models:
+
+GPT-4V / GPT-4o (OpenAI):
+- GPT-4V: vision capabilities added to GPT-4
+- GPT-4o: "omni" model handling text, audio, and images natively
+- Real-time audio conversation
+- Image understanding and generation (with DALL-E integration)
+- Video frame analysis
+
+Claude 3 / 3.5 (Anthropic):
+- Vision capabilities across all Claude 3 variants
+- Strong document and chart understanding
+- Computer use: can see and interact with computer screens
+- Long context (200K tokens) for multi-image analysis
+
+Gemini Family (Google):
+- Gemini 1.5 Pro: 1M token context, video understanding
+- Gemini 2.0: real-time multimodal, audio generation
+- Native multimodal from the ground up (not added later)
+- Integration with Google products (Search, Workspace)
+
+Gemma 3 (Google, Open-Source):
+- First open-weight multimodal Gemma
+- Image + text input, text output
+- 128K context window
+- Available for local deployment
+
+LLaVA Family (Open-Source):
+- LLaVA: Large Language and Vision Assistant
+- LLaVA-1.5, LLaVA-NeXT: improved versions
+- Connects vision encoders (CLIP) with LLMs
+- Enables open-source vision-language models
+
+Idefics (Hugging Face):
+- Open-source multimodal model
+- Based on Flamingo architecture
+- Available on Hugging Face
+
+Key Multimodal Capabilities:
+
+Image Understanding:
+- Object detection and description
+- Chart and graph analysis
+- Document OCR and understanding
+- Medical image analysis
+- Satellite imagery interpretation
+
+Video Understanding:
+- Frame-by-frame analysis
+- Temporal reasoning
+- Action recognition
+- Video summarization
+
+Audio Processing:
+- Speech recognition (Whisper, etc.)
+- Audio understanding
+- Real-time conversation (GPT-4o)
+- Music analysis
+
+Document Processing:
+- PDF understanding
+- Table extraction
+- Form processing
+- Multi-page document analysis
+
+Technical Approaches:
+
+Vision Encoders:
+- CLIP (OpenAI): contrastive learning for image-text alignment
+- SigLIP (Google): improved CLIP variant
+- DINOv2 (Meta): self-supervised vision features
+
+Fusion Strategies:
+- Cross-attention: vision features attend to text
+- Projection layers: map vision features to text space
+- Native multimodal: unified architecture from the start
+
+Trends (2024-2025):
+1. Any-to-any models: input and output any modality
+2. Real-time multimodal: low-latency audio-visual interaction
+3. Long video understanding: minutes to hours of video
+4. 3D understanding: spatial reasoning from images
+5. Multimodal RAG: retrieve images, tables, and text together
+
+The Rapid Evolution of Multimodal:
+- GPT-4V released October 2023
+- By March 2025, open-source models (Gemma 3) had comparable vision capabilities
+- 18 months from commercial-only to open-source parity
+- Audio capabilities added to text models in 2024
+- Video understanding becoming standard in 2025

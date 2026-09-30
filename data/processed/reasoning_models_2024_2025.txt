@@ -1,0 +1,96 @@
+Title: Reasoning Models: Chain-of-Thought and Extended Thinking (2024-2025)
+Source: Multiple technical sources including arXiv papers and official announcements
+Source Type: Technical Overview
+Category: LLM / Foundation Models, Trend Signals / Important Releases
+Date: 2024-2025
+
+Reasoning models represent a major advancement in LLM capabilities, enabling complex multi-step problem solving through extended thinking before answering.
+
+What are Reasoning Models:
+- LLMs trained to "think before answering"
+- Generate intermediate reasoning steps (chain-of-thought)
+- Significantly better on math, coding, and logical reasoning
+- Trade-off: slower and more expensive than standard models
+
+Key Reasoning Models:
+
+OpenAI o1 (September 2024):
+- First major commercial reasoning model
+- "Thinks" before answering using internal chain-of-thought
+- Significantly better than GPT-4 on math and coding
+- AIME 2024: 83.3% (vs. GPT-4o: 13.4%)
+- Slower and more expensive than GPT-4o
+
+OpenAI o3 (December 2024):
+- Improved reasoning over o1
+- Near-human performance on ARC-AGI benchmark
+- Expensive: $15-60 per million tokens
+
+DeepSeek R1 (January 2025):
+- Open-source reasoning model
+- Comparable to o1 on many benchmarks
+- Training cost: ~$5.6M (vs. estimated hundreds of millions for o1)
+- Full weights released publicly
+- Distilled versions: 1.5B to 70B parameters
+
+Claude 3.5 Sonnet with Extended Thinking (2025):
+- Anthropic's reasoning-capable model
+- Extended thinking: visible reasoning process
+- Strong on coding and analysis tasks
+
+Gemini 2.5 Pro (2025):
+- Google's reasoning model
+- Strong on math and science benchmarks
+- Integrated with Google products
+
+How Reasoning Works:
+
+Chain-of-Thought (CoT):
+- Model generates step-by-step reasoning
+- "Let me think about this step by step..."
+- Improves accuracy on complex tasks
+- Can be prompted or trained
+
+Extended Thinking / Scratchpad:
+- Model has a private "thinking" space
+- Reasoning not shown to user (or shown separately)
+- More compute = better reasoning
+- Inference-time scaling: more thinking = better answers
+
+Reinforcement Learning for Reasoning:
+- DeepSeek R1 approach: RL from scratch
+- Model learns to reason through trial and error
+- No supervised fine-tuning on reasoning traces
+- Emergent reasoning capabilities
+
+Distillation:
+- Train small models to mimic large reasoning models
+- DeepSeek-R1-Distill-Llama-8B: 8B model with reasoning
+- Enables reasoning on consumer hardware
+
+Benchmarks for Reasoning:
+
+AIME (American Invitational Mathematics Examination):
+- High school math competition problems
+- Very challenging for LLMs
+- DeepSeek R1: 79.8%, OpenAI o1: 83.3%
+
+MATH-500:
+- 500 competition math problems
+- DeepSeek R1: 97.3%
+
+ARC-AGI:
+- Abstract reasoning benchmark
+- Tests general intelligence
+- OpenAI o3: near-human performance
+
+Codeforces:
+- Competitive programming problems
+- Tests algorithmic reasoning
+
+Implications for AI Rapid Evolution:
+- Reasoning models emerged as a major paradigm in 2024
+- Open-source caught up to commercial in <6 months (DeepSeek R1)
+- Inference-time scaling: a new axis of improvement beyond training
+- The "best" approach to reasoning is still evolving
+- Researchers must track both training-time and inference-time advances

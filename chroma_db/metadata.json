@@ -1,0 +1,1540 @@
+{
+  "metadata": [
+    {
+      "id": "agentic_ai_ithome_2025_0",
+      "text": "Title: 資策會公布 2026 年十大 AI 關鍵技術：代理式 AI 與實體應用\nSource: https://www.ithome.com.tw/news/172987\nSource Type: Technical News Article (Traditional Chinese)\nCategory: Agent / Tool Use / Workflow Automation, Trend Signals / Important Releases\nDate: December 22, 2025\n\n資策會（Institute for Information Industry）公布 2026 年十大 AI 關鍵技術，其中「代理式 AI（Agentic AI）」名列前茅。\n\n代理式 AI 的定義與特徵：\n- 目標導向：能自主設定並追求目標\n- 自主決策：根據環境反饋調整策略\n- 與環境互動：能感知並影響數位或實體環境\n- 持續學習：從互動中改善行為\n\n為何代理式 AI 是 2026 年關鍵技術：\n\n技術成熟度：\n- LLM 推理能力大幅提升（GPT-4o、Claude 3.5、Gemini 2.0）\n-",
+      "source": "agentic_ai_ithome_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "agentic_ai_ithome_2025_1",
+      "text": "熟度：\n- LLM 推理能力大幅提升（GPT-4o、Claude 3.5、Gemini 2.0）\n- 工具調用（Function Calling）標準化\n- 多模態感知能力（視覺、語音）\n- 長上下文窗口（128K+）支援複雜任務\n\n基礎設施就緒：\n- 向量資料庫普及（ChromaDB、pgvector）\n- Agent 框架成熟（LangGraph、CrewAI）\n- 雲端 AI 服務降價\n- 邊緣推論硬體改善\n\n企業需求驅動：\n- 人力成本壓力\n- 數位轉型加速\n- 競爭壓力推動 AI 採用\n- ROI 案例逐漸清晰\n\n十大 AI 關鍵技術（部分）：\n1. 代理式 AI（Agentic AI）\n2. 多模態 AI（Multimodal AI）\n3. 小型語言模型（Small Language Models）\n4. AI 安全與治理\n5. 實體 AI（Physical AI / Robotics）\n6. 推理模型（Reasoning Models）\n7. 個人化 AI\n8. AI 基礎設施優化\n\n代理式 AI 的實體世界應用：\n- 工業機器人：AI 驅動的自主製造\n- 自動駕駛：感知-決策-行動循環\n- 智",
+      "source": "agentic_ai_ithome_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "agentic_ai_ithome_2025_2",
+      "text": " 的實體世界應用：\n- 工業機器人：AI 驅動的自主製造\n- 自動駕駛：感知-決策-行動循環\n- 智慧建築：環境感知與自動調節\n- 醫療輔助：診斷建議與治療規劃\n\n台灣 AI 發展脈絡：\n- 台灣在 AI 硬體（NVIDIA 供應鏈）具優勢\n- 軟體與應用層面積極追趕\n- 政府推動 AI 應用落地\n- 企業 AI 採用率快速提升\n\n對研究者的啟示：\n- 代理式 AI 是當前最值得追蹤的技術方向之一\n- RAG + Agent 的組合是實用的研究切入點\n- 台灣本地資料來源（ithome.com.tw）提供在地視角\n- 技術趨勢報告幫助研究者確認研究方向的市場價值",
+      "source": "agentic_ai_ithome_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1208
+    },
+    {
+      "id": "ai_agent_enterprise_2026_0",
+      "text": "Title: 2026 企業如何佈局 AI Agent？5 大技術趨勢與落地場景\nSource: https://ikala.ai/zh-tw/blog/2026-ai-agent-trend/\nSource Type: Technical Analysis Article (Traditional Chinese)\nCategory: Agent / Tool Use / Workflow Automation, Trend Signals / Important Releases\nDate: February 11, 2026\n\nAI Agent 在 2026 年已從實驗性技術走向企業實際部署，以下整理五大技術趨勢與落地場景。\n\nAI Agent 的核心定義：\n- 具備目標導向能力：能自主設定子目標並執行\n- 自主決策：根據環境反饋調整行動策略\n- 與環境互動：能呼叫工具、API、資料庫\n- 記憶管理：短期（對話上下文）與長期（外部儲存）記憶\n\n五大技術趨勢：\n\n1. 多 Agent 協作（Multi-Agent Orchestration）：\n- 單一 Agent 難以處理複雜任務\n- Orchestr",
+      "source": "ai_agent_enterprise_2026.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "ai_agent_enterprise_2026_1",
+      "text": "ent Orchestration）：\n- 單一 Agent 難以處理複雜任務\n- Orchestrator + Worker 架構成為主流\n- 框架：LangGraph、CrewAI、AutoGen\n- 應用：複雜業務流程自動化\n\n2. 工具調用標準化（Tool Use Standardization）：\n- MCP（Model Context Protocol）成為工具整合標準\n- 統一的工具描述格式\n- 降低 Agent 與工具整合的開發成本\n- 主要支持者：Anthropic、OpenAI、Google\n\n3. 記憶與知識管理（Memory & Knowledge Management）：\n- 向量資料庫整合（ChromaDB、pgvector、Qdrant）\n- RAG 作為 Agent 的長期記憶\n- 個人化知識庫\n- 跨對話記憶持久化\n\n4. 可靠性與可觀測性（Reliability & Observability）：\n- Agent 行為追蹤與日誌\n- 錯誤恢復機制\n- 人機協作（Human-in-the-loop）\n- 評估框架：TruLens、LangSmith\n\n5. 邊緣 Agent（",
+      "source": "ai_agent_enterprise_2026.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "ai_agent_enterprise_2026_2",
+      "text": "n-the-loop）\n- 評估框架：TruLens、LangSmith\n\n5. 邊緣 Agent（Edge Agents）：\n- 在設備端運行的輕量 Agent\n- FunctionGemma、Phi-3 等小型模型\n- 隱私保護：資料不離開設備\n- 低延遲：無需網路連線\n\n主要落地場景：\n\n客服自動化：\n- 多輪對話理解\n- 知識庫查詢（RAG）\n- 工單創建與追蹤\n- 情感分析與升級機制\n\n資料分析 Agent：\n- 自然語言查詢資料庫\n- 自動生成報表\n- 異常偵測與告警\n- 商業智慧問答\n\n程式碼開發 Agent：\n- 需求分析到程式碼生成\n- 自動測試撰寫\n- Bug 修復建議\n- 程式碼審查\n\n研究助理 Agent：\n- 文獻搜尋與摘要\n- 假設生成\n- 實驗設計建議\n- 知識圖譜建構\n\n工作流程自動化：\n- 跨系統資料同步\n- 審批流程自動化\n- 郵件分類與回覆\n- 會議摘要與行動項目追蹤\n\n2026 年預測：\n- 「VIP 禮賓服務」型 Agent 成為主流：個人化、主動式助理\n- Agent 市場規模快速成長\n- 企業 AI 支出中 Agent 相關佔比提升\n- 監管框架開始成形\n\n對 R",
+      "source": "ai_agent_enterprise_2026.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "ai_agent_enterprise_2026_3",
+      "text": " 市場規模快速成長\n- 企業 AI 支出中 Agent 相關佔比提升\n- 監管框架開始成形\n\n對 RAG 系統的啟示：\n- RAG 是 Agent 的核心知識基礎設施\n- 高品質知識庫直接影響 Agent 回答品質\n- 即時更新能力（data_update.py）對 Agent 至關重要\n- 引用來源（citations）增加 Agent 可信度",
+      "source": "ai_agent_enterprise_2026.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1560
+    },
+    {
+      "id": "ai_coding_tools_2025_0",
+      "text": "Title: AI Coding Tools and Developer Assistants in 2025-2026\nSource: Multiple sources including leadion.ai/blog/2026-ai-tools-recommendation/ and technical reviews\nSource Type: Technical Overview Article\nCategory: AI Coding Tools, Trend Signals / Important Releases\nDate: 2025-2026\n\nAI coding tools have transformed software development workflows. This document covers the major AI coding assistants, their capabilities, and the rapidly evolving landscape.\n\nMajor AI Coding Assistants:\n\nGitHub Copilot:\n- Most wi",
+      "source": "ai_coding_tools_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "ai_coding_tools_2025_1",
+      "text": "r AI Coding Assistants:\n\nGitHub Copilot:\n- Most widely adopted AI coding assistant\n- Powered by OpenAI Codex / GPT-4\n- IDE integration: VS Code, JetBrains, Neovim, Visual Studio\n- Features: code completion, chat, code review, PR summaries\n- Copilot Workspace: AI-powered development environment\n- Enterprise: code security scanning, custom models\n\nCursor:\n- AI-first code editor (fork of VS Code)\n- Deep codebase understanding\n- Multi-file editing with context\n- Composer: autonomous multi-file changes\n- Support",
+      "source": "ai_coding_tools_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "ai_coding_tools_2025_2",
+      "text": " Composer: autonomous multi-file changes\n- Supports: GPT-4, Claude, custom models\n- Growing rapidly in developer adoption\n\nKiro (Amazon):\n- Agentic coding assistant\n- Spec-driven development workflow\n- Hooks for automated actions\n- Steering files for project context\n- Integrated with AWS services\n\nClaude (Anthropic) for Coding:\n- Strong code generation and analysis\n- Long context window (200K tokens) for large codebases\n- Artifacts: interactive code previews\n- Computer use: can interact with development env",
+      "source": "ai_coding_tools_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "ai_coding_tools_2025_3",
+      "text": "\n- Computer use: can interact with development environments\n\nGemini Code Assist:\n- Google's coding assistant\n- Integration with Google Cloud and Workspace\n- Powered by Gemini models\n- Enterprise features for large codebases\n\nAider:\n- Open-source AI pair programmer\n- Terminal-based, works with any LLM\n- Git integration: automatic commits\n- Supports: GPT-4, Claude, Gemma, local models\n\nContinue.dev:\n- Open-source Copilot alternative\n- VS Code and JetBrains extension\n- Supports local models via Ollama\n- Custom",
+      "source": "ai_coding_tools_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "ai_coding_tools_2025_4",
+      "text": "ension\n- Supports local models via Ollama\n- Customizable with any LLM backend\n\nKey Capabilities Comparison:\n\nCode Completion:\n- All major tools support inline completion\n- Quality varies significantly by language and task\n- Python, JavaScript, TypeScript: best support\n- Niche languages: variable quality\n\nChat and Explanation:\n- Explain code, debug errors, suggest improvements\n- Context-aware: understands surrounding code\n- Multi-turn conversations about codebase\n\nAutonomous Agents:\n- Devin (Cognition): firs",
+      "source": "ai_coding_tools_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "ai_coding_tools_2025_5",
+      "text": "base\n\nAutonomous Agents:\n- Devin (Cognition): first \"AI software engineer\"\n- SWE-agent: academic benchmark for autonomous coding\n- OpenHands (formerly OpenDevin): open-source autonomous coding\n- These can write, test, and debug code autonomously\n\nTrends in AI Coding Tools (2025):\n1. Agentic coding: from completion to autonomous task execution\n2. Codebase understanding: tools that understand entire repositories\n3. Test generation: automatic test writing\n4. Code review: AI-powered PR review\n5. Documentation: ",
+      "source": "ai_coding_tools_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "ai_coding_tools_2025_6",
+      "text": "de review: AI-powered PR review\n5. Documentation: automatic docstring and README generation\n6. Security scanning: AI-powered vulnerability detection\n\nThe Pace of Change:\n- New AI coding tools launch monthly\n- Existing tools add major features weekly\n- The \"best\" tool for a specific task changes frequently\n- Developers must continuously re-evaluate their toolchain\n- Integration between tools is becoming more important than individual tools",
+      "source": "ai_coding_tools_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3214
+    },
+    {
+      "id": "ai_index_2025_stanford_0",
+      "text": "Title: AI Index 2025: State of AI in 10 Charts\nSource: https://hai.stanford.edu/news/ai-index-2025-state-of-ai-in-10-charts\nSource Type: Academic Research Report (Stanford HAI)\nCategory: Trend Signals / Important Releases, Evaluation / Benchmark / Observability\nDate: 2025\n\nThe Stanford Human-Centered AI (HAI) Institute's AI Index provides annual data-driven analysis of AI progress, investment, and societal impact.\n\nKey Statistics on AI Rapid Evolution:\n\nInference Cost Collapse:\n- Cost of querying a GPT-3.5 ",
+      "source": "ai_index_2025_stanford.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "ai_index_2025_stanford_1",
+      "text": "rence Cost Collapse:\n- Cost of querying a GPT-3.5 equivalent model (64.8% MMLU accuracy):\n  - November 2022: $20 per million tokens\n  - October 2024: $0.07 per million tokens (Gemini-1.5-Flash-8B)\n  - Reduction: more than 280-fold in approximately 18 months\n- This cost collapse is unprecedented in technology history\n- Enables applications that were economically infeasible 2 years ago\n\nModel Release Pace:\n- Number of significant AI model releases has accelerated dramatically\n- Both open-source and proprietar",
+      "source": "ai_index_2025_stanford.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "ai_index_2025_stanford_2",
+      "text": "ted dramatically\n- Both open-source and proprietary models releasing at increasing frequency\n- The gap between state-of-the-art and accessible models has narrowed\n\nBenchmark Saturation:\n- Many traditional benchmarks (MMLU, HumanEval) approaching saturation\n- New, harder benchmarks being created to differentiate frontier models\n- Benchmark performance no longer sufficient to predict real-world utility\n\nInvestment and Adoption:\n- Corporate AI investment: $252 billion in 2025 (up 44% from 2024)\n- Private fundi",
+      "source": "ai_index_2025_stanford.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "ai_index_2025_stanford_3",
+      "text": "billion in 2025 (up 44% from 2024)\n- Private funding for generative AI: $33.9 billion\n- 65% of enterprises deployed generative AI in production (up from scattered pilots)\n- Tripling of AI startup formations\n\nCapability Milestones:\n- Multimodal AI: now standard in frontier models\n- Reasoning: chain-of-thought and extended thinking now common\n- Code generation: AI-assisted coding adopted by majority of developers\n- Long context: 1M+ token context windows available\n\nThe Knowledge Keeping-Up Problem:\n- The pace",
+      "source": "ai_index_2025_stanford.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "ai_index_2025_stanford_4",
+      "text": "able\n\nThe Knowledge Keeping-Up Problem:\n- The pace of AI advancement creates a \"knowledge half-life\" problem\n- Skills and knowledge about specific models become outdated quickly\n- Researchers and practitioners report difficulty tracking all relevant developments\n- The field is moving faster than academic publication cycles\n- Pre-print culture (arXiv) has become essential for staying current\n\nImplications for Researchers:\n- Traditional literature review cycles (months) are too slow\n- Need for automated knowl",
+      "source": "ai_index_2025_stanford.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "ai_index_2025_stanford_5",
+      "text": "s (months) are too slow\n- Need for automated knowledge tracking systems (like RAG)\n- Community curation (Hugging Face, Papers With Code) becoming essential\n- The ability to quickly assess new models is a competitive advantage\n\nWhy This Data Matters for RAG Knowledge Bases:\n- Quantifies the pace of change that makes knowledge management critical\n- Provides authoritative benchmarks for comparing model generations\n- Stanford HAI is a credible, citable source for academic work\n- Data supports the thesis that AI",
+      "source": "ai_index_2025_stanford.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "ai_index_2025_stanford_6",
+      "text": "r academic work\n- Data supports the thesis that AI is evolving faster than humans can track",
+      "source": "ai_index_2025_stanford.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 2863
+    },
+    {
+      "id": "deepseek_r1_disruption_0",
+      "text": "Title: DeepSeek R1 and the Cost Revolution in AI (January 2025)\nSource: https://solvedtogether.co.uk/blog/latest-ai-advancements (and related coverage)\nSource Type: Technical Analysis Article\nCategory: LLM / Foundation Models, Trend Signals / Important Releases\nDate: January 2025\n\nDeepSeek's R1 model, released in January 2025, disrupted the AI industry by achieving performance comparable to leading Western models at dramatically lower training and inference costs.\n\nWhat is DeepSeek R1:\n- Open-source reasoni",
+      "source": "deepseek_r1_disruption.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "deepseek_r1_disruption_1",
+      "text": "costs.\n\nWhat is DeepSeek R1:\n- Open-source reasoning model from Chinese AI lab DeepSeek\n- Achieves performance comparable to OpenAI o1 on reasoning benchmarks\n- Training cost estimated at ~$5.6 million (vs. hundreds of millions for comparable Western models)\n- Released with full weights and technical report\n- Available on Hugging Face\n\nKey Technical Innovations:\n1. Reinforcement Learning from scratch: trained reasoning capabilities via RL without supervised fine-tuning\n2. Group Relative Policy Optimization ",
+      "source": "deepseek_r1_disruption.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "deepseek_r1_disruption_2",
+      "text": "fine-tuning\n2. Group Relative Policy Optimization (GRPO): efficient RL algorithm\n3. Chain-of-thought reasoning: extended thinking before answering\n4. Mixture-of-Experts architecture: efficient parameter utilization\n5. Distillation: smaller DeepSeek-R1 distilled models (1.5B to 70B)\n\nPerformance Benchmarks:\n- AIME 2024 (math): 79.8% (comparable to OpenAI o1)\n- MATH-500: 97.3%\n- Codeforces: 96.3rd percentile\n- MMLU: 90.8%\n- Competitive with GPT-4o and Claude 3.5 Sonnet on many tasks\n\nWhy DeepSeek R1 Shocked t",
+      "source": "deepseek_r1_disruption.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "deepseek_r1_disruption_3",
+      "text": ".5 Sonnet on many tasks\n\nWhy DeepSeek R1 Shocked the Industry:\n1. Cost efficiency: frontier performance at 1/10th the assumed cost\n2. Open weights: full model weights released publicly\n3. Reproducibility: detailed technical report enabled replication\n4. Challenged assumptions: showed that massive compute is not required for frontier AI\n5. Geopolitical implications: demonstrated non-US labs can reach frontier\n\nImpact on AI Ecosystem:\n- Triggered re-evaluation of AI development cost assumptions\n- Accelerated ",
+      "source": "deepseek_r1_disruption.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "deepseek_r1_disruption_4",
+      "text": " of AI development cost assumptions\n- Accelerated open-source reasoning model development\n- Inspired distilled versions (DeepSeek-R1-Distill-Llama, DeepSeek-R1-Distill-Qwen)\n- Showed that RL-based reasoning training is accessible to smaller labs\n- Caused significant stock market reactions in AI-adjacent companies\n\nThe Rapid Iteration Context:\n- DeepSeek V2 (May 2024) → DeepSeek V3 (December 2024) → DeepSeek R1 (January 2025)\n- Three major releases in 8 months\n- Each release significantly advanced the state ",
+      "source": "deepseek_r1_disruption.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "deepseek_r1_disruption_5",
+      "text": "s\n- Each release significantly advanced the state of the art\n- Demonstrates the global, distributed nature of AI progress\n- No single lab or country controls the pace of advancement\n\nImplications for Knowledge Management:\n- A model that didn't exist in December 2024 became a top-tier option by February 2025\n- Researchers who weren't tracking Chinese AI labs missed a major development\n- Highlights the need for comprehensive, multi-source knowledge tracking\n- Traditional academic channels (peer review) too sl",
+      "source": "deepseek_r1_disruption.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "deepseek_r1_disruption_6",
+      "text": "Traditional academic channels (peer review) too slow to capture this pace",
+      "source": "deepseek_r1_disruption.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 2845
+    },
+    {
+      "id": "fine_tuning_methods_2024_2025_0",
+      "text": "Title: LLM Fine-tuning Methods and Frameworks in 2024-2025\nSource: Multiple technical sources\nSource Type: Technical Overview\nCategory: Fine-tuning / Inference / Serving\nDate: 2024-2025\n\nFine-tuning large language models has become more accessible with parameter-efficient methods that reduce compute and memory requirements dramatically.\n\nWhy Fine-tune:\n- Adapt general models to specific domains or tasks\n- Improve performance on narrow, well-defined tasks\n- Reduce inference costs (smaller specialized model v",
+      "source": "fine_tuning_methods_2024_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "fine_tuning_methods_2024_2025_1",
+      "text": "educe inference costs (smaller specialized model vs. large general model)\n- Enable on-premise deployment with proprietary data\n- Customize model behavior and output format\n\nParameter-Efficient Fine-tuning (PEFT):\n\nLoRA (Low-Rank Adaptation):\n- Adds small trainable matrices to frozen model weights\n- Typical rank: 4-64 (much smaller than full weight matrices)\n- Memory reduction: 10-100x vs. full fine-tuning\n- Quality: near-full fine-tuning performance on most tasks\n- Most widely used PEFT method\n\nQLoRA (Quant",
+      "source": "fine_tuning_methods_2024_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "fine_tuning_methods_2024_2025_2",
+      "text": "tasks\n- Most widely used PEFT method\n\nQLoRA (Quantized LoRA):\n- Combines 4-bit quantization with LoRA\n- Enables fine-tuning 65B models on a single 48GB GPU\n- Minimal quality loss vs. full precision LoRA\n- Democratized fine-tuning of large models\n\nDoRA (Weight-Decomposed LoRA):\n- Decomposes weights into magnitude and direction\n- Improved performance over standard LoRA\n- 2024 advancement\n\nPrefix Tuning / Prompt Tuning:\n- Add trainable tokens to input\n- Even more parameter-efficient than LoRA\n- Lower quality c",
+      "source": "fine_tuning_methods_2024_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "fine_tuning_methods_2024_2025_3",
+      "text": "re parameter-efficient than LoRA\n- Lower quality ceiling than LoRA\n\nFine-tuning Frameworks:\n\nHugging Face PEFT:\n- Official PEFT library\n- Supports LoRA, QLoRA, prefix tuning, and more\n- Integrates with Transformers and Accelerate\n\nUnsloth:\n- 2-5x faster fine-tuning than standard methods\n- Lower memory usage\n- Supports Llama, Gemma, Mistral, Phi\n- Popular for consumer GPU fine-tuning\n\nLLaMA Factory:\n- Comprehensive fine-tuning framework\n- Web UI for no-code fine-tuning\n- Supports many models and PEFT methods",
+      "source": "fine_tuning_methods_2024_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "fine_tuning_methods_2024_2025_4",
+      "text": "ine-tuning\n- Supports many models and PEFT methods\n\nAxolotl:\n- Flexible fine-tuning configuration\n- YAML-based configuration\n- Supports distributed training\n\nFine-tuning Gemma:\n\nGemma 3 Fine-tuning:\n- Supported via Hugging Face PEFT + Transformers\n- LoRA fine-tuning on consumer GPUs (RTX 3090 for 4B model)\n- Vertex AI managed fine-tuning available\n- Kaggle notebooks with free GPU for experimentation\n\nFunctionGemma Fine-tuning:\n- Designed specifically for fine-tuning on function schemas\n- Smaller base (270M)",
+      "source": "fine_tuning_methods_2024_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "fine_tuning_methods_2024_2025_5",
+      "text": "e-tuning on function schemas\n- Smaller base (270M) enables fine-tuning on CPU\n- Target: specialized function-calling agents\n\nData Requirements:\n- Instruction fine-tuning: 1K-100K examples\n- Domain adaptation: 10K-1M documents\n- Quality > quantity for instruction tuning\n- Data format: instruction-response pairs (Alpaca, ShareGPT formats)\n\nEvaluation After Fine-tuning:\n- Task-specific benchmarks\n- Human evaluation\n- Comparison with base model\n- Regression testing on general capabilities\n\nThe Fine-tuning Lands",
+      "source": "fine_tuning_methods_2024_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "fine_tuning_methods_2024_2025_6",
+      "text": "ing on general capabilities\n\nThe Fine-tuning Landscape is Evolving:\n- New PEFT methods published monthly\n- Framework updates break existing workflows\n- Best practices change as new methods emerge\n- The \"right\" approach for a specific task requires continuous research",
+      "source": "fine_tuning_methods_2024_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3039
+    },
+    {
+      "id": "functiongemma_model_card_0",
+      "text": "Title: FunctionGemma Model Card — Google AI for Developers\nSource: https://ai.google.dev/gemma/docs/functiongemma/model_card\nSource Type: Official Model Card\nCategory: Google Gemma Updates, Agent / Tool Use / Workflow Automation\nDate: December 2025\n\nFunctionGemma is a lightweight, open model from Google, built as a foundation for creating specialized function calling models.\n\nModel Overview:\n- Base architecture: Gemma 3 270M parameters\n- Specialization: On-device function calling\n- License: Gemma license (o",
+      "source": "functiongemma_model_card.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "functiongemma_model_card_1",
+      "text": "evice function calling\n- License: Gemma license (open access)\n- Available on: Hugging Face (google/functiongemma-270m-it)\n- Also available: google/functiongemma-270m-pt (pre-trained base)\n\nPurpose and Design:\nFunctionGemma is designed as a base model for further fine-tuning. It provides an efficient pathway to production-grade function calling performance on resource-constrained hardware.\n\nKey Capabilities:\n- Translates natural language instructions into executable API actions\n- Supports multi-turn function",
+      "source": "functiongemma_model_card.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "functiongemma_model_card_2",
+      "text": "cutable API actions\n- Supports multi-turn function calling conversations\n- Designed for on-device deployment (mobile, edge devices)\n- Intended to be fine-tuned for specific function-calling tasks\n\nUse Cases:\n- On-device intelligent agents\n- Mobile assistants\n- Game AI with natural language interfaces\n- Resource-constrained environments where cloud API calls are not feasible\n- Specialized agents that need to call specific APIs or tools\n\nTechnical Details:\n- 270M parameters (extremely lightweight)\n- Based on ",
+      "source": "functiongemma_model_card.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "functiongemma_model_card_3",
+      "text": "70M parameters (extremely lightweight)\n- Based on Gemma 3 architecture\n- Pre-trained specifically for text-only function calling\n- Not designed as a general chat model out of the box\n- Requires fine-tuning for specific deployment scenarios\n\nComparison with General Models:\n- Much smaller than typical function-calling models (GPT-4, Claude)\n- Trades general capability for efficiency and deployability\n- Suitable for narrow, well-defined function-calling tasks\n- Can run on smartphones and embedded devices\n\nFine",
+      "source": "functiongemma_model_card.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "functiongemma_model_card_4",
+      "text": " Can run on smartphones and embedded devices\n\nFine-tuning Guidance:\n- Recommended to fine-tune on domain-specific function schemas\n- Supports multi-turn use cases after fine-tuning\n- Can be combined with RAG systems for knowledge-grounded function calling\n\nWhy FunctionGemma Matters:\n- Represents the trend toward specialized, efficient models for specific tasks\n- Enables AI agent capabilities on edge devices without cloud dependency\n- Part of Google's strategy to make AI accessible across the compute spectru",
+      "source": "functiongemma_model_card.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "functiongemma_model_card_5",
+      "text": "y to make AI accessible across the compute spectrum\n- Demonstrates how model specialization can achieve high performance at tiny scale",
+      "source": "functiongemma_model_card.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2444
+    },
+    {
+      "id": "gemma3_official_blog_0",
+      "text": "Title: Gemma 3: Google's New Open Model Based on Gemini 2.0\nSource: https://blog.google/technology/developers/gemma-3/\nSource Type: Official Google Blog\nCategory: Google Gemma Updates, LLM / Foundation Models, Multimodal Models\nDate: March 12, 2025\n\nGemma 3 is a collection of lightweight, state-of-the-art open models designed to run on devices. It outperforms other models in its size class, making it ideal for single-GPU or TPU applications.\n\nKey Features of Gemma 3:\n\nMultimodal Capabilities:\n- Supports vis",
+      "source": "gemma3_official_blog.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "gemma3_official_blog_1",
+      "text": " Gemma 3:\n\nMultimodal Capabilities:\n- Supports vision-language input: processes both images and text\n- The 4B, 12B, and 27B parameter models handle image + text input\n- The 1B variant is text-only\n- Enables applications that analyze images, text, and short videos\n\nContext and Language:\n- Context window up to 128K tokens (significant increase from previous versions)\n- Supports over 140 languages\n- Improved multilingual understanding and generation\n\nModel Sizes and Use Cases:\n- 1B: Ultra-lightweight, text-onl",
+      "source": "gemma3_official_blog.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "gemma3_official_blog_2",
+      "text": "s and Use Cases:\n- 1B: Ultra-lightweight, text-only, suitable for on-device deployment\n- 4B: Balanced multimodal model for edge devices\n- 12B: Strong performance for server-side applications\n- 27B: Highest capability, single-GPU deployable\n\nTechnical Improvements over Gemma 2:\n- Based on Gemini 2.0 technology\n- Improved math and reasoning capabilities\n- Better structured output generation\n- Native function calling support\n- Enhanced chat capabilities\n\nDeployment and Availability:\n- Available on Hugging Face",
+      "source": "gemma3_official_blog.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "gemma3_official_blog_3",
+      "text": "ment and Availability:\n- Available on Hugging Face (google/gemma-3-1b-it, google/gemma-3-4b-it, etc.)\n- Available on Kaggle\n- Available on Google Cloud Vertex AI\n- Compatible with popular inference frameworks: vLLM, Ollama, llama.cpp, MLX\n- Supported by Hugging Face Transformers\n\nShieldGemma 2:\n- Released alongside Gemma 3\n- Safety classification model\n- Helps developers build safer AI applications\n\nDeveloper Guide Highlights:\n- Gemma 3 introduces structured outputs for reliable JSON generation\n- Function c",
+      "source": "gemma3_official_blog.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "gemma3_official_blog_4",
+      "text": " outputs for reliable JSON generation\n- Function calling enables tool-use applications\n- Long context window enables document analysis and multi-document reasoning\n- Multilingual support makes it suitable for global applications\n\nBenchmark Performance:\n- Outperforms models of similar size class on standard benchmarks\n- Strong performance on MMLU, HumanEval, and reasoning benchmarks\n- Competitive with models 2-3x its parameter count\n\nWhy Gemma 3 Matters for AI Rapid Evolution:\n- Demonstrates how quickly open",
+      "source": "gemma3_official_blog.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "gemma3_official_blog_5",
+      "text": "I Rapid Evolution:\n- Demonstrates how quickly open-weight model capabilities are advancing\n- 128K context window was previously only available in large commercial models\n- Multimodal capabilities now accessible in lightweight, locally-deployable models\n- Represents the compression of frontier capabilities into smaller, more accessible models",
+      "source": "gemma3_official_blog.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2653
+    },
+    {
+      "id": "gemma3n_on_device_2025_0",
+      "text": "Title: Introducing Gemma 3n: Mobile-First Architecture for On-Device AI\nSource: https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/\nSource Type: Official Google Developers Blog\nCategory: Google Gemma Updates, Fine-tuning / Inference / Serving\nDate: June 2025\n\nGemma 3n is a mobile-first architecture that brings powerful multimodal capabilities to edge devices, with performance previously only seen in cloud-based frontier models.\n\nWhat is Gemma 3n:\n- Mobile-first design: optimized for s",
+      "source": "gemma3n_on_device_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "gemma3n_on_device_2025_1",
+      "text": "s Gemma 3n:\n- Mobile-first design: optimized for smartphones and edge devices\n- Multimodal: supports text, image, audio, and video input\n- Efficient architecture: novel design for on-device deployment\n- Full release: June 2025 (preview was earlier)\n\nKey Innovations in Gemma 3n:\n\nMatFormer Architecture:\n- Novel architecture designed for flexible deployment\n- Can be \"sliced\" to different sizes without retraining\n- Enables a single model to serve multiple hardware tiers\n- Reduces the need for separate models f",
+      "source": "gemma3n_on_device_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "gemma3n_on_device_2025_2",
+      "text": "are tiers\n- Reduces the need for separate models for different devices\n\nPer-Layer Embeddings (PLE):\n- Efficient embedding strategy\n- Reduces memory footprint\n- Enables larger effective model capacity with less memory\n\nMultimodal on Edge:\n- Audio understanding on mobile devices\n- Image analysis without cloud connectivity\n- Video frame processing\n- Text generation with multimodal context\n\nPerformance:\n- Outperforms previous on-device models significantly\n- Competitive with last year's cloud-based frontier mod",
+      "source": "gemma3n_on_device_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "gemma3n_on_device_2025_3",
+      "text": "petitive with last year's cloud-based frontier models\n- Runs on consumer smartphones (Android, iOS)\n\nSupported Frameworks:\n- Hugging Face Transformers\n- llama.cpp\n- Google AI Edge\n- Ollama\n- MLX (Apple Silicon)\n- Fine-tuning supported\n\nUse Cases:\n- Mobile AI assistants\n- Offline document analysis\n- Privacy-preserving AI (data stays on device)\n- Low-latency applications\n- Areas with limited connectivity\n\nDeveloper Experience:\n- Available on Hugging Face\n- Google AI Studio for testing\n- Kaggle notebooks for e",
+      "source": "gemma3n_on_device_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "gemma3n_on_device_2025_4",
+      "text": "gle AI Studio for testing\n- Kaggle notebooks for experimentation\n- Comprehensive documentation and tutorials\n\nWhy Gemma 3n Matters:\n- Demonstrates that frontier AI capabilities can run on consumer hardware\n- Privacy: sensitive data never leaves the device\n- Latency: no network round-trip\n- Cost: no API charges for inference\n- Accessibility: AI in areas with limited internet connectivity\n\nThe On-Device AI Trend:\n- Apple Intelligence: on-device AI for iPhone/Mac\n- Google Gemini Nano: on-device Gemini for Pixe",
+      "source": "gemma3n_on_device_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "gemma3n_on_device_2025_5",
+      "text": "ac\n- Google Gemini Nano: on-device Gemini for Pixel phones\n- Gemma 3n: open-source on-device multimodal AI\n- FunctionGemma: on-device function calling\n- The trend: frontier capabilities moving to edge devices\n- Implication: AI is becoming ambient, not just cloud-based\n\nComparison with Cloud Models:\n- Cloud: higher capability, requires connectivity, has cost\n- On-device: lower capability, offline, free inference\n- The gap is narrowing rapidly\n- Gemma 3n represents a significant step in closing this gap",
+      "source": "gemma3n_on_device_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2816
+    },
+    {
+      "id": "gemma4_release_0",
+      "text": "Title: Gemma 4 — Google DeepMind Open-Weight Multimodal AI\nSource: https://ai.google.dev/gemma/docs/core/model_card_4\nSource Type: Official Model Card + Google DeepMind Announcement\nCategory: Google Gemma Updates, LLM / Foundation Models, Multimodal Models\nDate: April 2, 2026\n\nGoogle DeepMind officially released Gemma 4 on April 2, 2026, marking a major milestone in open-source AI. This family of models delivers frontier-level intelligence per parameter, built from the same research and technology powering ",
+      "source": "gemma4_release.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "gemma4_release_1",
+      "text": "lt from the same research and technology powering Gemini 3.\n\nModel Sizes and Variants:\n- E2B: Edge 2B parameters, suitable for smartphones\n- E4B: Edge 4B parameters, balanced edge deployment\n- 26B A4B: 26B total parameters, 4B active (Mixture-of-Experts)\n- 31B: Dense 31B parameter model, fits on single 80GB H100 GPU\n\nKey Architectural Innovations:\n1. Mixture-of-Experts (MoE): The 26B A4B variant uses MoE, activating only 4B parameters per token\n2. Full multimodal: text, image, video, and audio input support",
+      "source": "gemma4_release.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "gemma4_release_2",
+      "text": "modal: text, image, video, and audio input support\n3. Audio support on small models (E2B, E4B)\n4. Hybrid attention mechanism\n5. Progressive Layer Expansion (PLE) for efficient scaling\n\nLicense Change:\n- Apache 2.0 license (most permissive Gemma license to date)\n- Previous Gemma versions used a custom Gemma license\n- Apache 2.0 enables broader commercial use and modification\n\nPerformance:\n- Benchmark scores rival models 20x their size\n- Runs frontier AI on a single GPU (31B on 80GB H100)\n- Competitive with G",
+      "source": "gemma4_release.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "gemma4_release_3",
+      "text": "single GPU (31B on 80GB H100)\n- Competitive with GPT-4 class models on many benchmarks\n- Designed for agentic workflows and complex reasoning\n\nDeployment Scenarios:\n- E2B/E4B: Smartphones, embedded devices, edge inference\n- 26B A4B: Workstation-class deployment with MoE efficiency\n- 31B: Single high-end GPU server deployment\n\nAgentic Capabilities:\n- Designed specifically for autonomous agentic workflows\n- Multi-step planning and reasoning\n- Tool use without fine-tuning\n- Complex reasoning chains\n\nAvailabili",
+      "source": "gemma4_release.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "gemma4_release_4",
+      "text": "fine-tuning\n- Complex reasoning chains\n\nAvailability:\n- Hugging Face: google/gemma-4-26B-A4B-it, google/gemma-4-31B-it, etc.\n- Google AI Studio\n- Vertex AI\n- Kaggle\n\nWhy Gemma 4 Represents AI Rapid Evolution:\n- Released just 13 months after Gemma 3\n- Jumped from decoder-only to full multimodal (text+image+video+audio)\n- Introduced MoE architecture for the first time in Gemma family\n- License became fully open-source (Apache 2.0)\n- Frontier-level performance now accessible on consumer hardware\n- Demonstrates",
+      "source": "gemma4_release.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "gemma4_release_5",
+      "text": "now accessible on consumer hardware\n- Demonstrates the compression of capabilities: what required massive compute in 2023 now runs on a phone",
+      "source": "gemma4_release.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2451
+    },
+    {
+      "id": "gemma_releases_official_0",
+      "text": "Title: Gemma Release History — Google AI for Developers\nSource: https://ai.google.dev/gemma/docs/releases\nSource Type: Official Technical Documentation\nCategory: Google Gemma Updates, LLM / Foundation Models\nDate: 2025-12-18 (last updated)\n\nGemma is a family of open models built by Google DeepMind, based on the same research and technology as Gemini. The following is the official release history of the Gemma model family.\n\nGemma 1 (February 2024):\n- Released February 21, 2024\n- Two sizes: Gemma 2B and Gemma",
+      "source": "gemma_releases_official.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "gemma_releases_official_1",
+      "text": " February 21, 2024\n- Two sizes: Gemma 2B and Gemma 7B\n- First open-weight models from Google based on Gemini technology\n- Available on Hugging Face, Kaggle, and Google Cloud Vertex AI\n- Supports text generation, summarization, question answering, and reasoning\n\nGemma 2 (June 2024):\n- Released June 2024\n- Sizes: 2B, 9B, 27B\n- Improved performance over Gemma 1 at equivalent parameter counts\n- Introduced sliding window attention and logit soft-capping\n- Available for fine-tuning and local deployment\n\nGemma 3 (",
+      "source": "gemma_releases_official.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "gemma_releases_official_2",
+      "text": "le for fine-tuning and local deployment\n\nGemma 3 (March 2025):\n- Released March 12, 2025\n- Sizes: 1B, 4B, 12B, 27B\n- First multimodal Gemma: supports vision-language input (images + text)\n- Context window up to 128K tokens\n- Supports 140+ languages\n- Improved math, reasoning, and structured output capabilities\n- Function calling support\n- Based on Gemini 2.0 technology\n- ShieldGemma 2 also released for safety classification\n\nFunctionGemma (December 2025):\n- Released December 2025\n- Based on Gemma 3 270M arc",
+      "source": "gemma_releases_official.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "gemma_releases_official_3",
+      "text": "Released December 2025\n- Based on Gemma 3 270M architecture\n- Specialized for on-device function calling\n- Designed as a base model for fine-tuning into specialized agents\n- Targets resource-constrained hardware (mobile, edge devices)\n- Translates natural language into executable API actions\n\nT5Gemma 2 (December 18, 2025):\n- Released December 18, 2025\n- Encoder-decoder architecture (unlike standard decoder-only Gemma)\n- Built by adapting Gemma 3 pretrained weights into encoder-decoder layout\n- Continued pre",
+      "source": "gemma_releases_official.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "gemma_releases_official_4",
+      "text": "eights into encoder-decoder layout\n- Continued pretraining with UL2 objective\n- First encoder-decoder model with multimodal inputs and 128K context window\n- Supports multilingual processing\n- Tied embeddings between encoder and decoder\n- Merged decoder self- and cross-attention for parameter efficiency\n- Suitable for translation, summarization, and question answering tasks\n\nGemma 4 (April 2, 2026):\n- Released April 2, 2026\n- Sizes: E2B, E4B, 26B A4B, 31B\n- First Gemma with Mixture-of-Experts (MoE) architect",
+      "source": "gemma_releases_official.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "gemma_releases_official_5",
+      "text": "irst Gemma with Mixture-of-Experts (MoE) architecture (26B A4B variant)\n- Full multimodal: text, image, video, and audio input\n- Apache 2.0 license (most permissive Gemma license to date)\n- Runs on a single 80GB NVIDIA H100 GPU (31B variant)\n- Designed for agentic workflows and complex reasoning\n- Built from same research as Gemini 3\n- Benchmark scores rival models 20x their size\n\nKey Technical Positioning:\n- Gemma models are designed to be lightweight, efficient, and suitable for local deployment\n- Complem",
+      "source": "gemma_releases_official.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "gemma_releases_official_6",
+      "text": "cient, and suitable for local deployment\n- Complement large commercial APIs (GPT, Claude, Gemini Pro) with open-weight alternatives\n- Integrated into Vertex AI, GKE, Google Cloud for enterprise deployment\n- Suitable for fine-tuning, RAG systems, and on-device inference",
+      "source": "gemma_releases_official.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3041
+    },
+    {
+      "id": "gemma_vertex_ai_deployment_0",
+      "text": "Title: Gemma on Google Cloud Vertex AI — Deployment and Inference\nSource: https://cloud.google.com/blog/products/ai-machine-learning/gemma-model-available-in-vertex-ai-and-via-gke\nSource Type: Official Google Cloud Blog\nCategory: Google Gemma Updates, Fine-tuning / Inference / Serving\nDate: February 21, 2024 (original), updated for Gemma 3 March 2025\n\nGoogle announced that Gemma models are available on Vertex AI and via Google Kubernetes Engine (GKE), enabling enterprise-grade deployment of open-weight mode",
+      "source": "gemma_vertex_ai_deployment.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "gemma_vertex_ai_deployment_1",
+      "text": "ng enterprise-grade deployment of open-weight models.\n\nVertex AI Integration:\n- Gemma available in Vertex AI Model Garden\n- End-to-end ML platform for tuning, managing, and monitoring\n- Reduces operational overhead for model deployment\n- Supports creating bespoke fine-tuned versions of Gemma\n- vLLM-based deployment for optimized inference\n\nGemma 3 on Vertex AI (March 2025):\nSource: https://cloud.google.com/blog/products/ai-machine-learning/announcing-gemma-3-on-vertex-ai\n- Easy-to-use vLLM-based deployment\n",
+      "source": "gemma_vertex_ai_deployment.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "gemma_vertex_ai_deployment_2",
+      "text": "-on-vertex-ai\n- Easy-to-use vLLM-based deployment\n- Maximizes throughput and minimizes latency\n- Scalable endpoints for Gemma 3 applications\n- Supports all Gemma 3 sizes (1B, 4B, 12B, 27B)\n\nDeployment Options:\n1. Vertex AI Endpoints: Managed, scalable, production-ready\n2. GKE (Google Kubernetes Engine): Custom deployment with full control\n3. Model Garden: Discovery, fine-tuning, and deployment in one place\n\nFine-tuning on Vertex AI:\n- Supervised fine-tuning (SFT) support\n- Parameter-efficient fine-tuning (P",
+      "source": "gemma_vertex_ai_deployment.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "gemma_vertex_ai_deployment_3",
+      "text": "(SFT) support\n- Parameter-efficient fine-tuning (PEFT/LoRA)\n- Custom dataset integration\n- Managed training infrastructure\n\nInference Optimization:\n- vLLM integration for high-throughput serving\n- PagedAttention for efficient memory management\n- Continuous batching for improved GPU utilization\n- TPU-backed endpoints available for cost optimization\n\nGPU and TPU Options:\n- GPU-backed endpoints: NVIDIA L4, A100, H100\n- TPU-backed endpoints: TPU v4, v5e\n- Automatic scaling based on traffic\n\nWhy This Matters:\n- ",
+      "source": "gemma_vertex_ai_deployment.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "gemma_vertex_ai_deployment_4",
+      "text": "tic scaling based on traffic\n\nWhy This Matters:\n- Gemma is not just a research model — it's production-ready\n- Enterprise teams can deploy Gemma without managing infrastructure\n- Enables fine-tuning on proprietary data with enterprise security\n- Demonstrates Google's commitment to making open models enterprise-viable\n- Shows the trend: open-weight models are now first-class citizens in cloud platforms\n\nModel Garden (200+ Models):\n- Vertex AI Model Garden now hosts 200+ validated open models\n- Includes Gemma",
+      "source": "gemma_vertex_ai_deployment.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "gemma_vertex_ai_deployment_5",
+      "text": " hosts 200+ validated open models\n- Includes Gemma, Qwen, DeepSeek, Llama, and more\n- Standardized discovery, fine-tuning, and deployment workflow\n- Reduces time from model selection to production endpoint",
+      "source": "gemma_vertex_ai_deployment.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2515
+    },
+    {
+      "id": "huggingface_ecosystem_2025_0",
+      "text": "Title: Hugging Face Ecosystem: The Hub of Open-Source AI (2025)\nSource: https://huggingface.co and related official documentation\nSource Type: Official Platform Documentation\nCategory: Open-source Ecosystem Updates\nDate: 2025\n\nHugging Face has become the central hub of the open-source AI ecosystem, hosting models, datasets, and tools that power the majority of AI research and development.\n\nPlatform Overview:\n\nModel Hub:\n- 500,000+ models available\n- All major open-source models: Llama, Gemma, Mistral, Qwen,",
+      "source": "huggingface_ecosystem_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "huggingface_ecosystem_2025_1",
+      "text": "r open-source models: Llama, Gemma, Mistral, Qwen, DeepSeek\n- Model cards: documentation, limitations, intended use\n- Automatic versioning and download tracking\n- Inference API for quick testing\n\nDatasets Hub:\n- 100,000+ datasets\n- Standardized dataset loading with datasets library\n- Data cards for documentation\n- Streaming for large datasets\n\nSpaces:\n- Interactive ML demos\n- Gradio and Streamlit apps\n- Free GPU hosting for demos\n- Community showcase\n\nKey Libraries:\n\nTransformers:\n- Core library for model l",
+      "source": "huggingface_ecosystem_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "huggingface_ecosystem_2025_2",
+      "text": "braries:\n\nTransformers:\n- Core library for model loading and inference\n- Supports 100+ model architectures\n- Unified API: AutoModel, AutoTokenizer\n- Fine-tuning support\n\nPEFT (Parameter-Efficient Fine-Tuning):\n- LoRA, QLoRA, prefix tuning, and more\n- Integrates with Transformers\n- Reduces fine-tuning compute requirements\n\nAccelerate:\n- Distributed training and inference\n- Multi-GPU, multi-node support\n- Mixed precision training\n\nDatasets:\n- Efficient dataset loading and processing\n- Streaming for large data",
+      "source": "huggingface_ecosystem_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "huggingface_ecosystem_2025_3",
+      "text": " loading and processing\n- Streaming for large datasets\n- Data augmentation utilities\n\nEvaluate:\n- Standardized evaluation metrics\n- Integrates with model training pipelines\n\nTRL (Transformer Reinforcement Learning):\n- RLHF, DPO, PPO for LLM alignment\n- Fine-tuning with human feedback\n\nOpen LLM Leaderboard:\n- Standardized benchmarking for open models\n- Metrics: MMLU, ARC, HellaSwag, TruthfulQA, Winogrande, GSM8K\n- Updated continuously as new models are submitted\n- Essential reference for comparing open-sourc",
+      "source": "huggingface_ecosystem_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "huggingface_ecosystem_2025_4",
+      "text": "ted\n- Essential reference for comparing open-source models\n\nChatbot Arena (LMSYS):\n- Human preference-based evaluation\n- Elo rating system\n- Includes both open and closed models\n- More aligned with real-world utility\n\nThe Hugging Face Community:\n- 1M+ registered users\n- Active model sharing and collaboration\n- Community fine-tunes and adaptations\n- Papers With Code integration\n\nWhy Hugging Face is Central to AI Rapid Evolution:\n- New models appear on Hugging Face within hours of announcement\n- Community imm",
+      "source": "huggingface_ecosystem_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "huggingface_ecosystem_2025_5",
+      "text": " Face within hours of announcement\n- Community immediately creates fine-tunes and adaptations\n- Standardized APIs reduce friction for trying new models\n- The leaderboard provides objective comparison\n- Without Hugging Face, tracking open-source AI would be much harder\n\nGemma on Hugging Face:\n- All Gemma versions available: google/gemma-2b, google/gemma-3-4b-it, etc.\n- Gemma 3 collection: huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76621268bb6d\n- Gemma 4: google/gemma-4-26B-A4B-it, google/g",
+      "source": "huggingface_ecosystem_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "huggingface_ecosystem_2025_6",
+      "text": "b6d\n- Gemma 4: google/gemma-4-26B-A4B-it, google/gemma-4-31B-it\n- FunctionGemma: google/functiongemma-270m-it\n- Community fine-tunes: hundreds of Gemma-based models\n\nPractical Usage for RAG:\n- Download embedding models: SentenceTransformer(\"paraphrase-multilingual-MiniLM-L12-v2\")\n- Models cached locally after first download\n- Version pinning for reproducibility\n- Model cards provide usage guidance and limitations",
+      "source": "huggingface_ecosystem_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3188
+    },
+    {
+      "id": "knowledge_management_ai_era_0",
+      "text": "Title: Knowledge Management in the Age of Rapid AI Evolution\nSource: Synthesized from multiple sources including Stanford HAI AI Index 2025 and community discussions\nSource Type: Analysis Article\nCategory: Trend Signals / Important Releases\nDate: 2025-2026\n\nThe rapid pace of AI development has created a knowledge management crisis for researchers, practitioners, and organizations. This document analyzes the problem and explores solutions.\n\nThe Scale of the Problem:\n\nPublication Volume:\n- arXiv AI submission",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "knowledge_management_ai_era_1",
+      "text": "roblem:\n\nPublication Volume:\n- arXiv AI submissions: thousands per month\n- New model releases: multiple per week\n- Framework updates: multiple per week\n- Blog posts and tutorials: hundreds per day\n- It is physically impossible to read everything relevant\n\nThe Knowledge Half-Life:\n- Information about specific models becomes outdated in months\n- Framework APIs change, breaking existing tutorials\n- \"Best practices\" evolve as new techniques emerge\n- A researcher who stopped following AI news for 6 months would ",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "knowledge_management_ai_era_2",
+      "text": " who stopped following AI news for 6 months would be significantly behind\n\nQuantified Pace:\n- The \"imitation cycle\" (time to match a new model): 12 months → 6 weeks\n- New significant model releases: approximately weekly\n- Cost of frontier AI inference: dropped 280x in 18 months\n- Number of open-source models on Hugging Face: 500,000+ (growing daily)\n\nThe Researcher's Dilemma:\n- Deep work requires focus and time away from news\n- But staying current requires constant attention\n- The opportunity cost of not tr",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "knowledge_management_ai_era_3",
+      "text": "onstant attention\n- The opportunity cost of not tracking: missing important developments\n- The opportunity cost of tracking everything: no time for deep work\n- This tension is a defining challenge of AI research in 2025\n\nSymptoms of Knowledge Anxiety:\n- FOMO (Fear of Missing Out) on new model releases\n- Imposter syndrome: \"everyone else seems to know about X\"\n- Tutorial fatigue: tutorials become outdated before you finish them\n- Tool paralysis: too many options, hard to choose\n- Benchmark confusion: conflic",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "knowledge_management_ai_era_4",
+      "text": "ons, hard to choose\n- Benchmark confusion: conflicting claims about model performance\n\nCurrent Coping Strategies:\n\nCommunity Curation:\n- Twitter/X AI community: real-time model announcements\n- Hugging Face: model cards and leaderboards\n- Papers With Code: research tracking\n- Reddit r/MachineLearning: community discussion\n- Newsletters: The Batch (deeplearning.ai), Import AI\n\nAutomated Tracking:\n- arXiv RSS feeds\n- GitHub release notifications\n- Hugging Face model alerts\n- Google Scholar alerts\n\nRAG Systems ",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "knowledge_management_ai_era_5",
+      "text": "model alerts\n- Google Scholar alerts\n\nRAG Systems for Knowledge Management:\n- Build personal knowledge bases from curated sources\n- Query your knowledge base instead of searching the web\n- Incremental updates as new information arrives\n- This is exactly what HW3 is building\n\nWhy RAG is the Right Solution:\n1. Selective ingestion: only add high-quality, relevant sources\n2. Semantic search: find relevant information by meaning, not keywords\n3. Citation tracking: know where information came from\n4. Incremental ",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "knowledge_management_ai_era_6",
+      "text": ": know where information came from\n4. Incremental updates: add new documents without rebuilding\n5. Personal curation: your knowledge base reflects your interests\n\nThe Meta-Lesson of HW3:\n- Building a RAG system for AI knowledge tracking is itself a response to AI rapid evolution\n- The system you build is a tool for managing the very problem it documents\n- This recursive quality makes the assignment particularly meaningful\n- A well-built RAG system becomes a personal research assistant\n\nFuture Directions:\n- ",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "knowledge_management_ai_era_7",
+      "text": "personal research assistant\n\nFuture Directions:\n- Automated ingestion from RSS feeds and APIs\n- Automatic summarization of new papers\n- Trend detection across the knowledge base\n- Integration with note-taking systems (Obsidian, Notion)\n- Multi-user knowledge bases for research teams",
+      "source": "knowledge_management_ai_era.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3517
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_0",
+      "text": "Title: LangChain and LangGraph: Building LLM Applications and Agents\nSource: https://python.langchain.com/docs/ and https://langchain-ai.github.io/langgraph/\nSource Type: Official Technical Documentation\nCategory: Agent / Tool Use / Workflow Automation, RAG / Retrieval / Knowledge Systems\nDate: 2024-2025\n\nLangChain and LangGraph are the most widely adopted frameworks for building LLM-powered applications, RAG systems, and AI agents.\n\nLangChain Overview:\n- Python and JavaScript library for LLM application de",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_1",
+      "text": "thon and JavaScript library for LLM application development\n- Abstractions for: models, prompts, chains, memory, tools, agents\n- Integrations: 100+ LLM providers, vector stores, tools\n- Most popular LLM framework by GitHub stars and usage\n\nCore LangChain Concepts:\n\nChains:\n- Sequences of LLM calls and transformations\n- LCEL (LangChain Expression Language): composable pipeline syntax\n- Example: prompt | llm | output_parser\n\nRetrieval:\n- Document loaders: PDF, web, database, etc.\n- Text splitters: chunking st",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_2",
+      "text": " web, database, etc.\n- Text splitters: chunking strategies\n- Embeddings: integration with sentence-transformers, OpenAI, etc.\n- Vector stores: ChromaDB, pgvector, Qdrant, FAISS\n- Retrievers: similarity search, MMR, contextual compression\n\nAgents:\n- ReAct agent: reasoning + acting\n- Tool-calling agent: uses function calling\n- Custom agents: define your own reasoning loop\n\nMemory:\n- ConversationBufferMemory: full history\n- ConversationSummaryMemory: summarized history\n- VectorStoreRetrieverMemory: semantic me",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_3",
+      "text": " history\n- VectorStoreRetrieverMemory: semantic memory\n\nLangGraph:\n- Graph-based framework for stateful, multi-actor applications\n- Nodes: processing steps (LLM calls, tool calls, etc.)\n- Edges: transitions between nodes (conditional or fixed)\n- State: shared state passed between nodes\n- Cycles: supports loops for iterative reasoning\n\nLangGraph Use Cases:\n- Multi-step agents with complex control flow\n- Human-in-the-loop workflows\n- Multi-agent systems\n- Stateful conversation management\n- Interrupt and resum",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_4",
+      "text": "eful conversation management\n- Interrupt and resume workflows\n\nRAG with LangChain:\n```python\nfrom langchain_community.vectorstores import Chroma\nfrom langchain_community.embeddings import HuggingFaceEmbeddings\nfrom langchain.chains import RetrievalQA\n\n# Setup\nembeddings = HuggingFaceEmbeddings(model_name=\"paraphrase-multilingual-MiniLM-L12-v2\")\nvectorstore = Chroma(persist_directory=\"./chroma_db\", embedding_function=embeddings)\nretriever = vectorstore.as_retriever(search_kwargs={\"k\": 5})\n\n# RAG chain\nqa_cha",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_5",
+      "text": "riever(search_kwargs={\"k\": 5})\n\n# RAG chain\nqa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)\n```\n\nLangSmith (Observability):\n- Tracing and monitoring for LangChain applications\n- Debug complex agent workflows\n- Production monitoring and alerting\n- Prompt management and versioning\n\nThe LangChain Ecosystem Challenge:\n- LangChain has undergone major API changes (v0.1, v0.2, v0.3)\n- Breaking changes require updating existing code\n- Documentation sometimes lags behind code changes\n- Community",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_6",
+      "text": "ion sometimes lags behind code changes\n- Community has mixed feelings about complexity\n- Alternative: build RAG from scratch (more control, less abstraction)\n\nWhy LangChain/LangGraph Matters:\n- Largest community and most integrations\n- Fastest way to prototype LLM applications\n- LangGraph enables complex agent workflows\n- LangSmith provides production observability\n- Despite criticism, remains the most widely used framework\n\nThe Framework Landscape is Evolving:\n- LangChain: general-purpose, most integration",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "langchain_langgraph_2024_2025_7",
+      "text": "ng:\n- LangChain: general-purpose, most integrations\n- LlamaIndex: RAG-focused, strong data connectors\n- Haystack: production RAG pipelines\n- CrewAI: multi-agent orchestration\n- AutoGen: conversational multi-agent\n- New frameworks emerge regularly\n- The \"best\" framework for a specific use case changes over time",
+      "source": "langchain_langgraph_2024_2025.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3545
+    },
+    {
+      "id": "litellm_unified_llm_interface_0",
+      "text": "Title: LiteLLM: Unified Interface for 100+ LLM Providers\nSource: https://github.com/BerriAI/litellm (official GitHub)\nSource Type: Official Technical Documentation\nCategory: Fine-tuning / Inference / Serving, RAG / Retrieval / Knowledge Systems\nDate: 2024-2025\n\nLiteLLM is an open-source Python library that provides a unified interface for calling 100+ LLM providers using the OpenAI API format. It simplifies switching between models and providers without changing application code.\n\nWhat is LiteLLM:\n- Unified",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "litellm_unified_llm_interface_1",
+      "text": "ging application code.\n\nWhat is LiteLLM:\n- Unified API: call any LLM with the same code\n- OpenAI-compatible: uses the same message format as OpenAI\n- 100+ providers: OpenAI, Anthropic, Google, Cohere, Hugging Face, and more\n- Proxy server: deploy as a centralized LLM gateway\n- Cost tracking: monitor spending across providers\n\nInstallation:\n```\npip install litellm\n```\n\nBasic Usage:\n```python\nfrom litellm import completion\n\n# Call any model with the same interface\nresponse = completion(\n    model=\"gemini/gemi",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "litellm_unified_llm_interface_2",
+      "text": "face\nresponse = completion(\n    model=\"gemini/gemini-2.5-flash\",  # or \"gpt-4o\", \"claude-3-5-sonnet\", etc.\n    messages=[\n        {\"role\": \"system\", \"content\": \"You are a helpful assistant.\"},\n        {\"role\": \"user\", \"content\": \"What is RAG?\"}\n    ]\n)\n\nprint(response.choices[0].message.content)\n```\n\nSupported Providers (selection):\n- OpenAI: gpt-4o, gpt-4-turbo, gpt-3.5-turbo\n- Anthropic: claude-3-5-sonnet, claude-3-opus\n- Google: gemini/gemini-2.5-flash, gemini/gemini-1.5-pro\n- Meta: llama-3.1-70b (via va",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "litellm_unified_llm_interface_3",
+      "text": "emini/gemini-1.5-pro\n- Meta: llama-3.1-70b (via various providers)\n- Mistral: mistral-large, mistral-7b\n- Local: ollama/llama3, ollama/gemma3\n\nEnvironment Variables:\n```bash\n# For Google Gemini via LiteLLM proxy\nLITELLM_API_KEY=your_key_here\nLITELLM_BASE_URL=https://your-litellm-endpoint/\n\n# Or direct API keys\nGEMINI_API_KEY=your_gemini_key\nANTHROPIC_API_KEY=your_anthropic_key\nOPENAI_API_KEY=your_openai_key\n```\n\nLiteLLM Proxy Server:\n- Deploy as a centralized gateway\n- Route requests to different providers\n",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "litellm_unified_llm_interface_4",
+      "text": "d gateway\n- Route requests to different providers\n- Add authentication, rate limiting, logging\n- Used by organizations to manage LLM access\n- The course instructor uses LiteLLM proxy to provide unified access\n\nKey Features for RAG Systems:\n- Streaming: stream responses for better UX\n- Async: async/await support for concurrent requests\n- Retry: automatic retry on failures\n- Fallback: fall back to alternative models on failure\n- Cost tracking: monitor token usage and costs\n\nEmbedding Support:\n```python\nfrom l",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "litellm_unified_llm_interface_5",
+      "text": "age and costs\n\nEmbedding Support:\n```python\nfrom litellm import embedding\n\n# Via Hugging Face (requires HF_TOKEN)\nresponse = embedding(\n    model=\"huggingface/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2\",\n    input=[\"text to embed\"]\n)\n```\n\nWhy LiteLLM Matters for AI Rapid Evolution:\n- New models can be adopted without changing application code\n- Switch from GPT-4 to Gemini to Claude with one line change\n- Enables experimentation with new models as they release\n- Reduces vendor lock-in\n- The ",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "litellm_unified_llm_interface_6",
+      "text": "ls as they release\n- Reduces vendor lock-in\n- The course uses LiteLLM to abstract away the specific model provider\n\nModel Switching Example:\n```python\n# Test with different models without changing RAG logic\nmodels_to_test = [\n    \"gemini/gemini-2.5-flash\",\n    \"gpt-4o-mini\",\n    \"claude-3-haiku\"\n]\n\nfor model in models_to_test:\n    response = completion(model=model, messages=messages)\n    # Same code, different models\n```\n\nThe LiteLLM Ecosystem:\n- Actively maintained with frequent updates\n- New model support",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "litellm_unified_llm_interface_7",
+      "text": "intained with frequent updates\n- New model support added within days of model releases\n- Community-driven provider integrations\n- Used in production by many organizations",
+      "source": "litellm_unified_llm_interface.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3404
+    },
+    {
+      "id": "llm_agent_survey_2025_0",
+      "text": "Title: Survey on Evaluation of LLM-based Agents\nSource: https://arxiv.org/html/2503.16416\nSource Type: Academic Survey Paper (arXiv)\nCategory: Agent / Tool Use / Workflow Automation\nDate: 2025\n\nThe emergence of LLM-based agents represents a paradigm shift in AI, enabling autonomous systems to plan, reason, use tools, and maintain memory while interacting with dynamic environments.\n\nWhat is an LLM Agent:\nAn LLM agent is an AI system that uses a large language model as its reasoning core, augmented with:\n- Pl",
+      "source": "llm_agent_survey_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "llm_agent_survey_2025_1",
+      "text": " model as its reasoning core, augmented with:\n- Planning: breaking complex tasks into subtasks\n- Memory: short-term (context) and long-term (external storage)\n- Tool use: calling APIs, executing code, searching the web\n- Perception: processing multimodal inputs\n- Action: executing actions in digital or physical environments\n\nCore Agent Architectures:\n\nReAct (Reasoning + Acting):\n- Interleaves reasoning traces with action execution\n- Enables transparent, debuggable agent behavior\n- Foundation for many produc",
+      "source": "llm_agent_survey_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "llm_agent_survey_2025_2",
+      "text": "ggable agent behavior\n- Foundation for many production agent systems\n\nChain-of-Thought + Tool Use:\n- Extended reasoning before tool calls\n- Better accuracy on complex multi-step tasks\n\nMulti-Agent Systems:\n- Multiple specialized agents collaborating\n- Orchestrator + worker agent patterns\n- Enables parallelization of complex workflows\n\nKey Tool Use Capabilities:\n- Web search and browsing\n- Code execution (Python, bash)\n- File system operations\n- API calls (REST, GraphQL)\n- Database queries\n- Calculator and m",
+      "source": "llm_agent_survey_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "llm_agent_survey_2025_3",
+      "text": "ST, GraphQL)\n- Database queries\n- Calculator and math tools\n- Image generation and analysis\n\nAgent Frameworks (2024-2025):\n- LangChain / LangGraph: Most widely adopted, Python-native\n- CrewAI: Multi-agent orchestration\n- AutoGen (Microsoft): Conversational multi-agent\n- Semantic Kernel (Microsoft): Enterprise-focused\n- LlamaIndex: RAG-focused agent framework\n- Haystack: Production RAG + agent pipelines\n\nBenchmark Results (2024-2025):\nSource: https://arxiv.org/html/2407.08713v1\n- Real-world tasks remain chal",
+      "source": "llm_agent_survey_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "llm_agent_survey_2025_4",
+      "text": "g/html/2407.08713v1\n- Real-world tasks remain challenging: GPT-4 completes <50% of complex tasks\n- Most LLMs achieve <25% on comprehensive tool-use benchmarks\n- Significant gap between benchmark performance and real-world deployment\n\nKey Challenges:\n1. Reliability: agents fail unpredictably on edge cases\n2. Long-horizon planning: multi-step tasks with many dependencies\n3. Tool selection: choosing the right tool from large tool sets\n4. Error recovery: handling tool failures gracefully\n5. Context management: ",
+      "source": "llm_agent_survey_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "llm_agent_survey_2025_5",
+      "text": "g tool failures gracefully\n5. Context management: maintaining relevant state across many steps\n\n2025 Trends in Agent Development:\n- Agentic RL: reinforcement learning for better tool use\n- MCP (Model Context Protocol): standardized tool integration\n- On-device agents: FunctionGemma, small specialized models\n- Enterprise agents: workflow automation, customer service\n- Scientific agents: automated research and experimentation\n\nWhy Agents Matter for AI Rapid Evolution:\n- Agents represent AI moving from \"answer",
+      "source": "llm_agent_survey_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "llm_agent_survey_2025_6",
+      "text": "olution:\n- Agents represent AI moving from \"answering questions\" to \"solving tasks\"\n- The pace of agent capability improvement is accelerating\n- New frameworks and tools emerge monthly\n- Researchers struggle to keep up with the agent ecosystem\n- Production deployment of agents is now a real engineering challenge",
+      "source": "llm_agent_survey_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3085
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_0",
+      "text": "Title: LLM Benchmarks and Evaluation Frameworks in 2025\nSource: Multiple sources including Hugging Face Open LLM Leaderboard, LMSYS Chatbot Arena\nSource Type: Technical Overview\nCategory: Evaluation / Benchmark / Observability\nDate: 2025\n\nEvaluating LLMs has become increasingly complex as models improve and traditional benchmarks saturate. This document covers the key benchmarks, leaderboards, and evaluation frameworks used in 2025.\n\nMajor Benchmarks:\n\nMMLU (Massive Multitask Language Understanding):\n- 57 s",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_1",
+      "text": "(Massive Multitask Language Understanding):\n- 57 subjects across STEM, humanities, social sciences\n- Standard for measuring general knowledge\n- Status: approaching saturation for frontier models (90%+ scores)\n- GPT-4o: 88.1%, DeepSeek-V3: 88.5%, Gemma 4: competitive\n\nHumanEval / MBPP:\n- Code generation benchmarks\n- Python function completion\n- Status: frontier models achieve 80-90%+\n- Newer: LiveCodeBench (contamination-resistant)\n\nMATH / AIME:\n- Mathematical reasoning\n- AIME 2024: DeepSeek-R1 79.8%, OpenAI",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_2",
+      "text": "l reasoning\n- AIME 2024: DeepSeek-R1 79.8%, OpenAI o1 comparable\n- Harder than MMLU for current models\n\nGSM8K:\n- Grade school math word problems\n- Now largely solved by frontier models (95%+)\n\nBIG-Bench Hard:\n- Challenging reasoning tasks\n- More resistant to saturation\n\nHELM (Holistic Evaluation of Language Models):\n- Stanford's comprehensive evaluation framework\n- Multiple dimensions: accuracy, calibration, robustness, fairness\n- More holistic than single-metric benchmarks\n\nLeaderboards:\n\nHugging Face Open",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_3",
+      "text": "etric benchmarks\n\nLeaderboards:\n\nHugging Face Open LLM Leaderboard:\n- URL: huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard\n- Focuses on open-source models\n- Standardized evaluation across multiple benchmarks\n- Updated continuously as new models are submitted\n- Key signal for open-source model quality\n\nLMSYS Chatbot Arena:\n- URL: chat.lmsys.org\n- Human preference-based evaluation (Elo rating)\n- Real users compare model outputs\n- More aligned with real-world utility than academic benchmarks\n- Include",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_4",
+      "text": "l-world utility than academic benchmarks\n- Includes both open and closed models\n\nPapers With Code:\n- URL: paperswithcode.com\n- Tracks state-of-the-art across all ML tasks\n- Links papers to code implementations\n- Essential for tracking research progress\n\nEvaluation Challenges:\n\nBenchmark Contamination:\n- Training data may include benchmark test sets\n- Models may \"memorize\" answers rather than generalize\n- Solutions: held-out test sets, dynamic benchmarks\n\nBenchmark Gaming:\n- Models optimized specifically for",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_5",
+      "text": "chmark Gaming:\n- Models optimized specifically for benchmarks\n- May not reflect real-world performance\n- Human evaluation (Chatbot Arena) more robust\n\nEvaluation Frameworks:\n\nRAGAS (RAG Assessment):\n- Specifically for RAG system evaluation\n- Metrics: faithfulness, answer relevance, context precision, context recall\n- Open-source Python library\n\nTruLens:\n- LLM application evaluation\n- Feedback functions for quality assessment\n- Integrates with LangChain, LlamaIndex\n\nDeepEval:\n- Comprehensive LLM evaluation f",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_6",
+      "text": "aIndex\n\nDeepEval:\n- Comprehensive LLM evaluation framework\n- Multiple metrics: hallucination, toxicity, bias\n- CI/CD integration for automated testing\n\nObservability Tools:\n\nLangSmith (LangChain):\n- Tracing and monitoring for LLM applications\n- Debug complex agent workflows\n- Production monitoring\n\nWeights & Biases (W&B):\n- ML experiment tracking\n- LLM fine-tuning monitoring\n- Prompt management\n\nThe Evaluation Landscape is Evolving:\n- New benchmarks created monthly to stay ahead of model capabilities\n- Huma",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "llm_benchmark_evaluation_2025_7",
+      "text": "monthly to stay ahead of model capabilities\n- Human evaluation becoming more important as benchmarks saturate\n- Multi-dimensional evaluation replacing single-metric comparisons\n- Real-world task performance increasingly valued over academic benchmarks",
+      "source": "llm_benchmark_evaluation_2025.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3485
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_0",
+      "text": "Title: LLM Model Evolution 2024-2026: The Accelerating Pace of AI Development\nSource: https://www.llm-evolution.com/ and https://magazine.sebastianraschka.com/p/state-of-llms-2025\nSource Type: Technical Analysis\nCategory: Trend Signals / Important Releases, LLM / Foundation Models\nDate: 2025-2026\n\nThe pace of LLM development has accelerated dramatically, with the \"imitation cycle\" — the time for competitors to match a new model's capabilities — compressing from 12 months to 6 weeks.\n\nTimeline of Major LLM M",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_1",
+      "text": "rom 12 months to 6 weeks.\n\nTimeline of Major LLM Milestones (2022-2026):\n\n2022:\n- November: ChatGPT released (GPT-3.5)\n- Inference cost: $20 per million tokens for GPT-3.5 equivalent\n\n2023:\n- March: GPT-4 released\n- July: Llama 2 (Meta) — open-source milestone\n- September: Mistral 7B — efficient open-source model\n- October: GPT-4V — vision capabilities\n\n2024:\n- February: Gemma 1 (Google) — first open Gemini-based model\n- April: Llama 3 (Meta) — 8B, 70B, 405B\n- June: Gemma 2 (Google)\n- June: Claude 3.5 Sonne",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_2",
+      "text": "\n- June: Gemma 2 (Google)\n- June: Claude 3.5 Sonnet\n- July: Llama 3.1 405B — competitive with GPT-4\n- September: Qwen 2.5 (Alibaba)\n- October: Inference cost: $0.07 per million tokens (280x reduction in 18 months)\n- December: DeepSeek V3\n\n2025:\n- January: DeepSeek R1 — frontier reasoning at 1/10th cost\n- March: Gemma 3 — multimodal, 128K context\n- March: GPT-4.5\n- April: Llama 4 (Meta)\n- May: Claude 4\n- June: Gemini 2.5 Pro\n- December: FunctionGemma, T5Gemma 2\n\n2026:\n- April: Gemma 4 — Apache 2.0, MoE, full",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_3",
+      "text": " 2\n\n2026:\n- April: Gemma 4 — Apache 2.0, MoE, full multimodal\n\nKey Observations:\n\nCapability Compression:\n- What required GPT-4 in 2023 can be done by a 7B open-source model in 2025\n- Multimodal capabilities: commercial-only in 2023, open-source in 2025\n- 128K context: rare in 2023, standard in 2025\n- Reasoning: specialized in 2024, widespread in 2025\n\nCost Collapse:\n- 280x cost reduction in 18 months (2022-2024)\n- Trend continues in 2025-2026\n- Enables applications that were economically infeasible 2 years",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_4",
+      "text": "ications that were economically infeasible 2 years ago\n\nThe Knowledge Half-Life Problem:\n- A researcher who learned about \"state-of-the-art\" models in early 2024 would be significantly outdated by late 2024\n- The \"best\" open-source model changes approximately every 2-3 months\n- Technical skills for specific models become obsolete quickly\n- Framework APIs change frequently (LangChain, LlamaIndex breaking changes)\n\nImplications for Researchers and Practitioners:\n1. Continuous learning is mandatory, not option",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_5",
+      "text": "s:\n1. Continuous learning is mandatory, not optional\n2. Generalist knowledge (architectures, training methods) more durable than specific model knowledge\n3. Community resources (Hugging Face, Papers With Code, arXiv) essential for staying current\n4. RAG systems for knowledge management are increasingly valuable\n5. The ability to quickly evaluate new models is a competitive advantage\n\nThe Scaling Law Debate (2024-2025):\n- 2024: researchers began questioning whether scaling laws would continue\n- DeepSeek R1 s",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_6",
+      "text": "hether scaling laws would continue\n- DeepSeek R1 showed efficiency gains can substitute for scale\n- Mixture-of-Experts: more parameters, same compute\n- Inference-time compute (chain-of-thought): alternative to training-time scale\n- Conclusion: scaling continues, but the form is changing\n\nWhat This Means for AI Knowledge Management:\n- Static knowledge bases become outdated within months\n- Need for systems that can be updated incrementally (like data_update.py)\n- Citation and source tracking essential for ver",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "llm_evolution_pace_2024_2026_7",
+      "text": ")\n- Citation and source tracking essential for verifying currency of information\n- The RAG system itself is a response to the knowledge management challenge",
+      "source": "llm_evolution_pace_2024_2026.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3390
+    },
+    {
+      "id": "llm_inference_serving_2025_0",
+      "text": "Title: LLM Inference and Serving: vLLM, Ollama, and Production Deployment\nSource: https://www.digitalapplied.com/blog/open-source-ai-models-enterprise-guide-2026\nSource Type: Technical Guide\nCategory: Fine-tuning / Inference / Serving\nDate: 2025-2026\n\nDeploying LLMs in production requires specialized inference infrastructure. This document covers the key tools, frameworks, and strategies for efficient LLM serving.\n\nKey Inference Frameworks:\n\nvLLM:\n- Production standard for high-throughput LLM serving\n- Page",
+      "source": "llm_inference_serving_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "llm_inference_serving_2025_1",
+      "text": "on standard for high-throughput LLM serving\n- PagedAttention: efficient KV cache management\n- Continuous batching: maximizes GPU utilization\n- Supports: Llama, Gemma, Mistral, Qwen, and most major models\n- OpenAI-compatible API\n- Kubernetes deployment with Prometheus observability\n- Best for: high-traffic production APIs\n\nOllama:\n- Developer-friendly local deployment\n- Simple CLI: `ollama pull gemma3:4b && ollama run gemma3:4b`\n- Supports: Llama, Gemma, Mistral, Phi, and many others\n- Automatic model quanti",
+      "source": "llm_inference_serving_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "llm_inference_serving_2025_2",
+      "text": "ral, Phi, and many others\n- Automatic model quantization\n- REST API for local development\n- Best for: local development, single-user scenarios, MacBook deployment\n\nllama.cpp:\n- CPU-optimized inference\n- GGUF model format\n- Runs on CPU without GPU\n- Supports quantization (Q4, Q8, etc.)\n- Best for: CPU-only environments, edge deployment\n\nTensorRT-LLM (NVIDIA):\n- Maximum GPU performance\n- NVIDIA-specific optimizations\n- Best for: NVIDIA GPU production deployment\n\nHugging Face Transformers:\n- Reference implemen",
+      "source": "llm_inference_serving_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "llm_inference_serving_2025_3",
+      "text": "t\n\nHugging Face Transformers:\n- Reference implementation\n- Easiest to use for experimentation\n- Not optimized for production throughput\n- Best for: research, fine-tuning, prototyping\n\nQuantization Strategies:\n- INT8: ~2x memory reduction, minimal quality loss\n- INT4 (GPTQ, AWQ): ~4x memory reduction, small quality loss\n- GGUF (llama.cpp): flexible quantization levels\n- Enables running larger models on smaller hardware\n\nHardware Requirements (approximate):\n- 7B model (FP16): ~14GB VRAM (RTX 3090/4090)\n- 7B m",
+      "source": "llm_inference_serving_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "llm_inference_serving_2025_4",
+      "text": "7B model (FP16): ~14GB VRAM (RTX 3090/4090)\n- 7B model (INT4): ~4GB VRAM (RTX 3060)\n- 13B model (FP16): ~26GB VRAM (A100 40GB)\n- 70B model (INT4): ~35GB VRAM (A100 80GB)\n- Gemma 3 27B (FP16): ~54GB VRAM\n- Gemma 4 31B (FP16): ~62GB VRAM (fits on H100 80GB)\n\nServing Architecture Patterns:\n\nSingle-GPU Deployment:\n- Suitable for: development, low-traffic APIs\n- Tools: vLLM, Ollama, llama.cpp\n- Models: up to 13B (FP16) or 70B (INT4)\n\nMulti-GPU Deployment:\n- Tensor parallelism: split model across GPUs\n- Pipeline ",
+      "source": "llm_inference_serving_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "llm_inference_serving_2025_5",
+      "text": "r parallelism: split model across GPUs\n- Pipeline parallelism: split layers across GPUs\n- Tools: vLLM with tensor_parallel_size parameter\n\nCloud Deployment:\n- Vertex AI (Google): managed Gemma deployment\n- AWS SageMaker: managed endpoint deployment\n- Azure ML: managed deployment\n- Replicate, Modal, RunPod: serverless GPU options\n\nCost Optimization:\n- Spot/preemptible instances: 60-80% cost reduction\n- Quantization: reduce memory, enable smaller/cheaper GPUs\n- Batching: maximize throughput per GPU-hour\n- Cac",
+      "source": "llm_inference_serving_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "llm_inference_serving_2025_6",
+      "text": "- Batching: maximize throughput per GPU-hour\n- Caching: cache common query embeddings and responses\n\nThe Serving Landscape is Evolving Rapidly:\n- vLLM releases new versions approximately weekly\n- New quantization methods (AWQ, GPTQ, GGUF) emerged in 2023-2024\n- Speculative decoding: 2-3x speedup with draft models\n- Flash Attention 2/3: significant memory and speed improvements\n- The \"best\" serving stack changes every few months",
+      "source": "llm_inference_serving_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3203
+    },
+    {
+      "id": "mcp_tool_protocol_2024_0",
+      "text": "Title: Model Context Protocol (MCP): Standardizing AI Tool Integration\nSource: https://arxiv.org/html/2505.16700v1 (MCP-Radar benchmark) and official MCP documentation\nSource Type: Technical Overview + Academic Reference\nCategory: Agent / Tool Use / Workflow Automation\nDate: 2024-2025\n\nModel Context Protocol (MCP) is an open standard for connecting AI models to external tools, data sources, and services. Introduced by Anthropic in late 2024, it has rapidly become a de facto standard for AI tool integration.",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "mcp_tool_protocol_2024_1",
+      "text": "ecome a de facto standard for AI tool integration.\n\nWhat is MCP:\n- Open protocol for AI model-tool communication\n- Standardizes how models discover and call external tools\n- Enables any AI application to connect to any MCP-compatible tool\n- Similar to USB-C for AI: universal connector for AI capabilities\n\nCore Components:\n\nMCP Servers:\n- Expose tools, resources, and prompts to AI models\n- Can be local (filesystem, databases) or remote (APIs, services)\n- Examples: filesystem server, GitHub server, Postgres s",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "mcp_tool_protocol_2024_2",
+      "text": "ples: filesystem server, GitHub server, Postgres server, web search server\n\nMCP Clients:\n- AI applications that connect to MCP servers\n- Examples: Claude Desktop, Cursor, Kiro, custom applications\n\nMCP Protocol:\n- JSON-RPC based communication\n- Tool discovery: models can list available tools\n- Tool invocation: standardized request/response format\n- Resource access: files, databases, APIs\n\nWhy MCP Matters:\n\nBefore MCP:\n- Each AI application had custom tool integration\n- Developers had to write separate integ",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "mcp_tool_protocol_2024_3",
+      "text": "tegration\n- Developers had to write separate integrations for each tool\n- No standardization across different AI models\n- Tool integrations were not reusable\n\nAfter MCP:\n- Write a tool once, use with any MCP-compatible AI\n- Standardized discovery and invocation\n- Growing ecosystem of pre-built MCP servers\n- Reduces integration overhead significantly\n\nMCP Ecosystem (2025):\n- Official MCP servers: filesystem, GitHub, Postgres, Slack, Google Drive\n- Community servers: hundreds of integrations\n- Supported clien",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "mcp_tool_protocol_2024_4",
+      "text": "ervers: hundreds of integrations\n- Supported clients: Claude Desktop, Cursor, Kiro, VS Code extensions\n- Framework support: LangChain, LlamaIndex adding MCP support\n\nMCP-Radar Benchmark:\nSource: https://arxiv.org/html/2505.16700v1\n- First comprehensive benchmark for LLM performance in MCP framework\n- Five dimensions: answer accuracy, tool selection efficiency, computational resource efficiency, parameter construction accuracy, execution speed\n- Reveals significant variation in model performance on MCP tasks",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "mcp_tool_protocol_2024_5",
+      "text": "ficant variation in model performance on MCP tasks\n- GPT-4o and Claude 3.5 Sonnet perform best on MCP benchmarks\n\nTechnical Details:\n\nTool Schema:\n- JSON Schema for tool parameters\n- Name, description, input schema\n- Models use descriptions to decide when to call tools\n\nResource Types:\n- Tools: functions that can be called\n- Resources: data that can be read (files, database records)\n- Prompts: reusable prompt templates\n\nSecurity Considerations:\n- Tool permissions and access control\n- Sandboxing for code exe",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "mcp_tool_protocol_2024_6",
+      "text": "sions and access control\n- Sandboxing for code execution tools\n- Audit logging for tool calls\n\nAdoption and Impact:\n- Anthropic open-sourced MCP in November 2024\n- Rapid adoption by major AI tool vendors\n- Microsoft, Google, and OpenAI supporting MCP\n- Becoming the standard for AI agent tool integration\n\nWhy MCP Represents AI Rapid Evolution:\n- Went from announcement to widespread adoption in <6 months\n- Solving a real pain point (tool integration fragmentation)\n- Community-driven ecosystem growing rapidly\n",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "mcp_tool_protocol_2024_7",
+      "text": "ion)\n- Community-driven ecosystem growing rapidly\n- Demonstrates how quickly new standards can emerge and be adopted in AI",
+      "source": "mcp_tool_protocol_2024.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3356
+    },
+    {
+      "id": "multimodal_models_2024_2025_0",
+      "text": "Title: Multimodal AI Models: Vision, Audio, and Beyond (2024-2025)\nSource: Multiple official sources and technical reviews\nSource Type: Technical Overview\nCategory: Multimodal Models, LLM / Foundation Models\nDate: 2024-2025\n\nMultimodal AI models that process multiple input types (text, images, audio, video) have become mainstream in 2024-2025, with capabilities previously only available in specialized systems now integrated into general-purpose models.\n\nMajor Multimodal Models:\n\nGPT-4V / GPT-4o (OpenAI):\n- ",
+      "source": "multimodal_models_2024_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "multimodal_models_2024_2025_1",
+      "text": "r Multimodal Models:\n\nGPT-4V / GPT-4o (OpenAI):\n- GPT-4V: vision capabilities added to GPT-4\n- GPT-4o: \"omni\" model handling text, audio, and images natively\n- Real-time audio conversation\n- Image understanding and generation (with DALL-E integration)\n- Video frame analysis\n\nClaude 3 / 3.5 (Anthropic):\n- Vision capabilities across all Claude 3 variants\n- Strong document and chart understanding\n- Computer use: can see and interact with computer screens\n- Long context (200K tokens) for multi-image analysis\n\nG",
+      "source": "multimodal_models_2024_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "multimodal_models_2024_2025_2",
+      "text": " context (200K tokens) for multi-image analysis\n\nGemini Family (Google):\n- Gemini 1.5 Pro: 1M token context, video understanding\n- Gemini 2.0: real-time multimodal, audio generation\n- Native multimodal from the ground up (not added later)\n- Integration with Google products (Search, Workspace)\n\nGemma 3 (Google, Open-Source):\n- First open-weight multimodal Gemma\n- Image + text input, text output\n- 128K context window\n- Available for local deployment\n\nLLaVA Family (Open-Source):\n- LLaVA: Large Language and Vis",
+      "source": "multimodal_models_2024_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "multimodal_models_2024_2025_3",
+      "text": "ily (Open-Source):\n- LLaVA: Large Language and Vision Assistant\n- LLaVA-1.5, LLaVA-NeXT: improved versions\n- Connects vision encoders (CLIP) with LLMs\n- Enables open-source vision-language models\n\nIdefics (Hugging Face):\n- Open-source multimodal model\n- Based on Flamingo architecture\n- Available on Hugging Face\n\nKey Multimodal Capabilities:\n\nImage Understanding:\n- Object detection and description\n- Chart and graph analysis\n- Document OCR and understanding\n- Medical image analysis\n- Satellite imagery interpr",
+      "source": "multimodal_models_2024_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "multimodal_models_2024_2025_4",
+      "text": "Medical image analysis\n- Satellite imagery interpretation\n\nVideo Understanding:\n- Frame-by-frame analysis\n- Temporal reasoning\n- Action recognition\n- Video summarization\n\nAudio Processing:\n- Speech recognition (Whisper, etc.)\n- Audio understanding\n- Real-time conversation (GPT-4o)\n- Music analysis\n\nDocument Processing:\n- PDF understanding\n- Table extraction\n- Form processing\n- Multi-page document analysis\n\nTechnical Approaches:\n\nVision Encoders:\n- CLIP (OpenAI): contrastive learning for image-text alignment",
+      "source": "multimodal_models_2024_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "multimodal_models_2024_2025_5",
+      "text": "AI): contrastive learning for image-text alignment\n- SigLIP (Google): improved CLIP variant\n- DINOv2 (Meta): self-supervised vision features\n\nFusion Strategies:\n- Cross-attention: vision features attend to text\n- Projection layers: map vision features to text space\n- Native multimodal: unified architecture from the start\n\nTrends (2024-2025):\n1. Any-to-any models: input and output any modality\n2. Real-time multimodal: low-latency audio-visual interaction\n3. Long video understanding: minutes to hours of video",
+      "source": "multimodal_models_2024_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "multimodal_models_2024_2025_6",
+      "text": "ong video understanding: minutes to hours of video\n4. 3D understanding: spatial reasoning from images\n5. Multimodal RAG: retrieve images, tables, and text together\n\nThe Rapid Evolution of Multimodal:\n- GPT-4V released October 2023\n- By March 2025, open-source models (Gemma 3) had comparable vision capabilities\n- 18 months from commercial-only to open-source parity\n- Audio capabilities added to text models in 2024\n- Video understanding becoming standard in 2025",
+      "source": "multimodal_models_2024_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3236
+    },
+    {
+      "id": "open_source_llm_ecosystem_2025_0",
+      "text": "Title: The State of Open-Source AI Models in 2025\nSource: https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025\nSource Type: Technical Analysis Article\nCategory: Open-source Ecosystem Updates, LLM / Foundation Models\nDate: January 2026 (reviewing 2025)\n\n2025 was a landmark year for open-source AI models, with capabilities that previously required massive commercial infrastructure becoming accessible to individual developers and organizations.\n\nMajor Open-Source Model Families (2",
+      "source": "open_source_llm_ecosystem_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "open_source_llm_ecosystem_2025_1",
+      "text": "rganizations.\n\nMajor Open-Source Model Families (2024-2025):\n\nMeta Llama Family:\n- Llama 3 (mid-2024): 8B, 70B, 405B parameters\n- Llama 3.1 405B: Competitive with GPT-4 on many benchmarks\n- Llama 3.3 70B: Strong performance, practical deployment size\n- License: Custom Meta license (permissive for most uses)\n- Available on Hugging Face\n\nMistral Family:\n- Mistral 7B: Efficient, strong European alternative\n- Mixtral 8x7B: Mixture-of-Experts, efficient inference\n- Mistral Large: Competitive with GPT-4 class mod",
+      "source": "open_source_llm_ecosystem_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "open_source_llm_ecosystem_2025_2",
+      "text": "\n- Mistral Large: Competitive with GPT-4 class models\n- Multilingual capabilities\n- Apache 2.0 license\n\nDeepSeek Family:\n- DeepSeek-V3: 88.5% on MMLU, competitive with GPT-4o (88.1%)\n- DeepSeek-R1 (January 2025): Strongest open-source reasoning model\n- Disrupted the industry by achieving frontier performance at dramatically lower cost\n- Showed that frontier AI is achievable without massive compute budgets\n\nQwen Family (Alibaba):\n- Qwen 2.5 72B: Leading Chinese open-source model\n- Strong multilingual capabil",
+      "source": "open_source_llm_ecosystem_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "open_source_llm_ecosystem_2025_3",
+      "text": "se open-source model\n- Strong multilingual capabilities\n- Competitive on coding and math benchmarks\n\nGoogle Gemma Family:\n- Gemma 1 (Feb 2024) → Gemma 2 (Jun 2024) → Gemma 3 (Mar 2025) → Gemma 4 (Apr 2026)\n- Fastest iteration cycle among major model families\n- Unique: multimodal from Gemma 3 onwards\n- Apache 2.0 license from Gemma 4\n\nMicrosoft Phi Family:\n- Phi-3: Small but capable models (3.8B, 7B, 14B)\n- Focus on efficiency and reasoning\n- Suitable for edge deployment\n\nKey Trends in Open-Source LLMs (2025",
+      "source": "open_source_llm_ecosystem_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "open_source_llm_ecosystem_2025_4",
+      "text": "e deployment\n\nKey Trends in Open-Source LLMs (2025):\n\n1. Capability Compression:\n- Models 10x smaller achieving performance of previous generation large models\n- Inference cost for GPT-3.5 equivalent dropped 280x from 2022 to 2024\n- Trend accelerating in 2025\n\n2. Multimodal Democratization:\n- Vision-language capabilities now in open models (Gemma 3, LLaVA, Idefics)\n- Previously only available in commercial APIs\n\n3. Long Context:\n- 128K context windows now standard in frontier open models\n- Enables document ",
+      "source": "open_source_llm_ecosystem_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "open_source_llm_ecosystem_2025_5",
+      "text": "andard in frontier open models\n- Enables document analysis without chunking\n\n4. Reasoning Models:\n- Chain-of-thought reasoning built into model training\n- DeepSeek-R1 showed open-source can match commercial reasoning models\n\n5. Specialization:\n- Domain-specific fine-tuned models proliferating\n- Code models: DeepSeek Coder, Code Llama\n- Math models: specialized reasoning models\n- Function calling: FunctionGemma, specialized tool-use models\n\nHugging Face Ecosystem:\n- Central hub for open-source model distribu",
+      "source": "open_source_llm_ecosystem_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "open_source_llm_ecosystem_2025_6",
+      "text": "stem:\n- Central hub for open-source model distribution\n- Open LLM Leaderboard: standardized benchmarking\n- Model cards: documentation and responsible AI\n- Spaces: interactive demos\n- Inference API: easy model testing\n\nThe Pace Problem:\n- New significant model releases: approximately weekly in 2025\n- Researchers report difficulty tracking all relevant releases\n- The \"imitation cycle\" compressed from 12 months to 6 weeks\n- Knowledge about model capabilities becomes outdated within months",
+      "source": "open_source_llm_ecosystem_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3262
+    },
+    {
+      "id": "rag_survey_2024_2025_0",
+      "text": "Title: Retrieval-Augmented Generation: Survey of Architectures, Enhancements, and Robustness\nSource: https://arxiv.org/abs/2506.00054 (and related: https://arxiv.org/html/2402.19473v5)\nSource Type: Academic Survey Paper (arXiv)\nCategory: RAG / Retrieval / Knowledge Systems\nDate: 2024-2025\n\nRetrieval-Augmented Generation (RAG) has emerged as a powerful paradigm to enhance large language models (LLMs) by conditioning generation on external evidence retrieved at inference time.\n\nCore RAG Architecture:\n1. Retri",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "rag_survey_2024_2025_1",
+      "text": "t inference time.\n\nCore RAG Architecture:\n1. Retrieval Component: Finds relevant documents/passages from a knowledge base\n2. Augmentation: Combines retrieved content with the user query\n3. Generation: LLM generates response grounded in retrieved evidence\n\nWhy RAG Matters:\n- Reduces hallucinations by grounding responses in retrieved facts\n- Enables up-to-date knowledge without retraining the model\n- Provides verifiable, traceable responses with citations\n- Cost-effective alternative to full model fine-tuning",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "rag_survey_2024_2025_2",
+      "text": "st-effective alternative to full model fine-tuning\n- Enables domain-specific knowledge without exposing training data\n\nKey RAG Variants and Enhancements:\n\nNaive RAG:\n- Simple retrieve-then-generate pipeline\n- Fixed chunking, basic similarity search\n- Limitations: retrieval quality bottleneck, context window constraints\n\nAdvanced RAG:\n- Query rewriting and expansion\n- Hybrid search (dense + sparse retrieval)\n- Re-ranking retrieved passages\n- Iterative retrieval\n\nModular RAG:\n- Flexible pipeline with swappabl",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "rag_survey_2024_2025_3",
+      "text": "al\n\nModular RAG:\n- Flexible pipeline with swappable components\n- Routing, scheduling, and fusion modules\n- Supports complex multi-step retrieval\n\nAgentic RAG (2024-2025 trend):\nSource: https://arxiv.org/html/2501.09136v1\n- LLM agent decides when and what to retrieve\n- Multi-step retrieval with planning\n- Tool-use integration for dynamic knowledge access\n- Self-reflection on retrieved content quality\n\nGraph RAG:\nSource: https://arxiv.org/html/2408.08921v1\n- Knowledge graph integration\n- Handles complex entit",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "rag_survey_2024_2025_4",
+      "text": "nowledge graph integration\n- Handles complex entity relationships\n- Better for multi-hop reasoning\n\nLong-Context RAG:\n- Extended context windows (128K+) reduce need for chunking\n- Trade-off: retrieval precision vs. context stuffing\n- Hybrid approaches combining retrieval with long context\n\nEmbedding Models for RAG:\n- Dense retrieval: sentence-transformers, OpenAI embeddings\n- Sparse retrieval: BM25, SPLADE\n- Hybrid: combines dense and sparse signals\n- Multilingual: paraphrase-multilingual-MiniLM-L12-v2 for ",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "rag_survey_2024_2025_5",
+      "text": "ingual: paraphrase-multilingual-MiniLM-L12-v2 for non-English content\n\nVector Databases:\n- ChromaDB: Simple, Python-native, no server required\n- pgvector: PostgreSQL extension, SQL + vector search\n- Qdrant: High performance, REST API\n- FAISS: In-memory, no server, Meta-developed\n- Weaviate, Pinecone: Cloud-native options\n\nRAG Evaluation Challenges:\nSource: https://arxiv.org/abs/2504.14891\n- Retrieval quality: precision, recall, MRR\n- Generation quality: faithfulness, relevance, completeness\n- End-to-end: an",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "rag_survey_2024_2025_6",
+      "text": "hfulness, relevance, completeness\n- End-to-end: answer correctness, citation accuracy\n- Frameworks: RAGAS, TruLens, DeepEval\n\nCurrent Research Directions (2024-2025):\n1. Trustworthy RAG: reducing hallucinations in retrieved-grounded generation\n2. Multimodal RAG: retrieving images, tables, code alongside text\n3. Streaming RAG: real-time retrieval for live data\n4. Personalized RAG: user-specific knowledge bases\n5. RAG + Agents: dynamic retrieval within agentic workflows\n\nPractical Considerations:\n- Chunk size",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "rag_survey_2024_2025_7",
+      "text": " workflows\n\nPractical Considerations:\n- Chunk size: 256-512 tokens typical, with 50-100 token overlap\n- Top-k retrieval: 3-10 chunks depending on context window\n- Similarity threshold: filter low-relevance chunks to avoid noise\n- Metadata filtering: source, date, category for targeted retrieval",
+      "source": "rag_survey_2024_2025.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3529
+    },
+    {
+      "id": "reasoning_models_2024_2025_0",
+      "text": "Title: Reasoning Models: Chain-of-Thought and Extended Thinking (2024-2025)\nSource: Multiple technical sources including arXiv papers and official announcements\nSource Type: Technical Overview\nCategory: LLM / Foundation Models, Trend Signals / Important Releases\nDate: 2024-2025\n\nReasoning models represent a major advancement in LLM capabilities, enabling complex multi-step problem solving through extended thinking before answering.\n\nWhat are Reasoning Models:\n- LLMs trained to \"think before answering\"\n- Gen",
+      "source": "reasoning_models_2024_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "reasoning_models_2024_2025_1",
+      "text": ":\n- LLMs trained to \"think before answering\"\n- Generate intermediate reasoning steps (chain-of-thought)\n- Significantly better on math, coding, and logical reasoning\n- Trade-off: slower and more expensive than standard models\n\nKey Reasoning Models:\n\nOpenAI o1 (September 2024):\n- First major commercial reasoning model\n- \"Thinks\" before answering using internal chain-of-thought\n- Significantly better than GPT-4 on math and coding\n- AIME 2024: 83.3% (vs. GPT-4o: 13.4%)\n- Slower and more expensive than GPT-4o\n\n",
+      "source": "reasoning_models_2024_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "reasoning_models_2024_2025_2",
+      "text": ": 13.4%)\n- Slower and more expensive than GPT-4o\n\nOpenAI o3 (December 2024):\n- Improved reasoning over o1\n- Near-human performance on ARC-AGI benchmark\n- Expensive: $15-60 per million tokens\n\nDeepSeek R1 (January 2025):\n- Open-source reasoning model\n- Comparable to o1 on many benchmarks\n- Training cost: ~$5.6M (vs. estimated hundreds of millions for o1)\n- Full weights released publicly\n- Distilled versions: 1.5B to 70B parameters\n\nClaude 3.5 Sonnet with Extended Thinking (2025):\n- Anthropic's reasoning-capa",
+      "source": "reasoning_models_2024_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "reasoning_models_2024_2025_3",
+      "text": "nded Thinking (2025):\n- Anthropic's reasoning-capable model\n- Extended thinking: visible reasoning process\n- Strong on coding and analysis tasks\n\nGemini 2.5 Pro (2025):\n- Google's reasoning model\n- Strong on math and science benchmarks\n- Integrated with Google products\n\nHow Reasoning Works:\n\nChain-of-Thought (CoT):\n- Model generates step-by-step reasoning\n- \"Let me think about this step by step...\"\n- Improves accuracy on complex tasks\n- Can be prompted or trained\n\nExtended Thinking / Scratchpad:\n- Model has",
+      "source": "reasoning_models_2024_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "reasoning_models_2024_2025_4",
+      "text": "ained\n\nExtended Thinking / Scratchpad:\n- Model has a private \"thinking\" space\n- Reasoning not shown to user (or shown separately)\n- More compute = better reasoning\n- Inference-time scaling: more thinking = better answers\n\nReinforcement Learning for Reasoning:\n- DeepSeek R1 approach: RL from scratch\n- Model learns to reason through trial and error\n- No supervised fine-tuning on reasoning traces\n- Emergent reasoning capabilities\n\nDistillation:\n- Train small models to mimic large reasoning models\n- DeepSeek-R1",
+      "source": "reasoning_models_2024_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "reasoning_models_2024_2025_5",
+      "text": "dels to mimic large reasoning models\n- DeepSeek-R1-Distill-Llama-8B: 8B model with reasoning\n- Enables reasoning on consumer hardware\n\nBenchmarks for Reasoning:\n\nAIME (American Invitational Mathematics Examination):\n- High school math competition problems\n- Very challenging for LLMs\n- DeepSeek R1: 79.8%, OpenAI o1: 83.3%\n\nMATH-500:\n- 500 competition math problems\n- DeepSeek R1: 97.3%\n\nARC-AGI:\n- Abstract reasoning benchmark\n- Tests general intelligence\n- OpenAI o3: near-human performance\n\nCodeforces:\n- Comp",
+      "source": "reasoning_models_2024_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "reasoning_models_2024_2025_6",
+      "text": "nAI o3: near-human performance\n\nCodeforces:\n- Competitive programming problems\n- Tests algorithmic reasoning\n\nImplications for AI Rapid Evolution:\n- Reasoning models emerged as a major paradigm in 2024\n- Open-source caught up to commercial in <6 months (DeepSeek R1)\n- Inference-time scaling: a new axis of improvement beyond training\n- The \"best\" approach to reasoning is still evolving\n- Researchers must track both training-time and inference-time advances",
+      "source": "reasoning_models_2024_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3231
+    },
+    {
+      "id": "sentence_transformers_embedding_0",
+      "text": "Title: Sentence Transformers: Free Local Embedding Models for RAG\nSource: https://www.sbert.net/ (official documentation) and Hugging Face\nSource Type: Official Technical Documentation\nCategory: RAG / Retrieval / Knowledge Systems, Fine-tuning / Inference / Serving\nDate: 2024-2025\n\nSentence Transformers is a Python framework for state-of-the-art sentence, text, and image embeddings. It provides free, local embedding models that are essential for cost-free RAG systems.\n\nWhat is Sentence Transformers:\n- Pytho",
+      "source": "sentence_transformers_embedding.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "sentence_transformers_embedding_1",
+      "text": "G systems.\n\nWhat is Sentence Transformers:\n- Python library maintained by Hugging Face\n- Provides 15,000+ pre-trained embedding models\n- Runs completely locally — no API key required\n- Models downloaded automatically from Hugging Face Hub\n- Returns dense vector representations of text\n\nInstallation:\n```\npip install sentence-transformers\n```\n\nKey Models for RAG:\n\nparaphrase-multilingual-MiniLM-L12-v2:\n- Dimensions: 384\n- Languages: 50+ (including Chinese, Japanese, Korean, English)\n- Size: ~420MB\n- Speed: fa",
+      "source": "sentence_transformers_embedding.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "sentence_transformers_embedding_2",
+      "text": "anese, Korean, English)\n- Size: ~420MB\n- Speed: fast\n- Best for: multilingual content, Chinese-English mixed data\n- Recommended for HW3 (AI tech content often mixes English terms with Chinese)\n\nall-MiniLM-L6-v2:\n- Dimensions: 384\n- Languages: English primarily\n- Size: ~80MB\n- Speed: very fast\n- Best for: English-only content, speed-critical applications\n\nall-mpnet-base-v2:\n- Dimensions: 768\n- Languages: English primarily\n- Size: ~420MB\n- Speed: moderate\n- Best for: highest quality English embeddings\n\nnomic-",
+      "source": "sentence_transformers_embedding.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "sentence_transformers_embedding_3",
+      "text": "st for: highest quality English embeddings\n\nnomic-embed-text (via Ollama):\n- Dimensions: 768\n- Languages: English primarily\n- Requires Ollama installation\n- Best for: users with existing Ollama setup\n\nUsage Example:\n```python\nfrom sentence_transformers import SentenceTransformer\n\n# Load model (downloads automatically on first use)\nmodel = SentenceTransformer(\"paraphrase-multilingual-MiniLM-L12-v2\")\n\n# Encode texts\ntexts = [\"AI is evolving rapidly\", \"模型迭代速度極快\"]\nembeddings = model.encode(texts)  # Returns num",
+      "source": "sentence_transformers_embedding.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "sentence_transformers_embedding_4",
+      "text": "\"]\nembeddings = model.encode(texts)  # Returns numpy array\n\n# Shape: (2, 384) — 2 texts, 384 dimensions each\nprint(embeddings.shape)\n```\n\nWhy Local Embeddings Matter:\n1. Cost: completely free, no API charges\n2. Privacy: data never leaves your machine\n3. Latency: no network round-trip\n4. Reliability: no API rate limits or outages\n5. Reproducibility: same model version = same embeddings\n\nEmbedding Quality Considerations:\n- Semantic similarity: similar meaning → similar vectors\n- Cross-lingual: multilingual mo",
+      "source": "sentence_transformers_embedding.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "sentence_transformers_embedding_5",
+      "text": "→ similar vectors\n- Cross-lingual: multilingual models align concepts across languages\n- Domain adaptation: general models may underperform on specialized domains\n- Fine-tuning: possible but usually not necessary for RAG\n\nPractical Notes for HW3:\n- First run downloads model (~420MB for multilingual model)\n- Subsequent runs use cached model (fast startup)\n- Batch encoding is more efficient than encoding one at a time\n- model.encode() returns numpy arrays; convert to list for ChromaDB\n\nDeterminism:\n- Same inp",
+      "source": "sentence_transformers_embedding.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "sentence_transformers_embedding_6",
+      "text": "vert to list for ChromaDB\n\nDeterminism:\n- Same input text → same embedding vector (deterministic)\n- Enables content-hash-based deduplication\n- Chunk ID = {filename}_{chunk_index} is sufficient for idempotency\n\nThe Embedding Landscape:\n- New embedding models released regularly\n- MTEB (Massive Text Embedding Benchmark) tracks state-of-the-art\n- Multilingual models improving rapidly\n- Specialized domain models (medical, legal, code) available\n- The \"best\" embedding model for a specific task changes over time",
+      "source": "sentence_transformers_embedding.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3282
+    },
+    {
+      "id": "t5gemma2_release_0",
+      "text": "Title: T5Gemma 2 — Google DeepMind Encoder-Decoder Models\nSource: https://deepmind.google/models/gemma/t5gemma/\nSource Type: Official Google DeepMind Model Page\nCategory: Google Gemma Updates, LLM / Foundation Models, Fine-tuning / Inference / Serving\nDate: December 18, 2025\n\nT5Gemma 2 is a family of open encoder-decoder Transformer checkpoints built by Google DeepMind, representing a significant architectural departure from the standard decoder-only Gemma models.\n\nArchitecture Overview:\n- Encoder-decoder a",
+      "source": "t5gemma2_release.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "t5gemma2_release_1",
+      "text": "odels.\n\nArchitecture Overview:\n- Encoder-decoder architecture (unlike standard Gemma which is decoder-only)\n- Built by adapting Gemma 3 pretrained weights into encoder-decoder layout\n- Continued pretraining with UL2 (Unified Language Learning) objective\n- Tied embeddings between encoder and decoder\n- Merged decoder self-attention and cross-attention for parameter efficiency\n\nKey Innovations in T5Gemma 2:\n1. First encoder-decoder model with multimodal inputs\n2. Ultra-long context window: 128K tokens\n3. Multi",
+      "source": "t5gemma2_release.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "t5gemma2_release_2",
+      "text": "2. Ultra-long context window: 128K tokens\n3. Multilingual support inherited from Gemma 3\n4. Same memory footprint as Gemma 3 despite additional capabilities\n5. More active capabilities enabled by architectural changes\n\nWhy Encoder-Decoder Architecture:\n- Encoder-decoder models have historically excelled at:\n  - Machine translation\n  - Text summarization\n  - Question answering\n  - Sequence-to-sequence tasks\n- T5Gemma 2 revives this architecture with modern capabilities\n- Provides an alternative to decoder-on",
+      "source": "t5gemma2_release.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "t5gemma2_release_3",
+      "text": "pabilities\n- Provides an alternative to decoder-only models for specific task types\n\nMultimodal Capabilities:\n- Supports multimodal inputs (text + images)\n- First encoder-decoder model to achieve this combination\n- Enables vision-language tasks with encoder-decoder efficiency\n\nDeployment Advantages:\n- Efficient for tasks requiring full input understanding before generation\n- Better suited for tasks where the entire input must be processed before output\n- Parameter efficiency through tied embeddings and merg",
+      "source": "t5gemma2_release.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "t5gemma2_release_4",
+      "text": "ameter efficiency through tied embeddings and merged attention\n\nComparison with Standard Gemma 3:\n- Same base technology (Gemma 3 weights)\n- Different architecture (encoder-decoder vs decoder-only)\n- Better for structured prediction tasks\n- Potentially more efficient for translation and summarization\n\nSignificance for AI Rapid Evolution:\n- Demonstrates Google's exploration of multiple architectural paradigms simultaneously\n- Shows how pretrained weights can be repurposed for different architectures\n- Repres",
+      "source": "t5gemma2_release.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "t5gemma2_release_5",
+      "text": "be repurposed for different architectures\n- Represents the trend of architectural diversity in the open-source ecosystem\n- Released just 9 months after Gemma 3, showing rapid iteration pace",
+      "source": "t5gemma2_release.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2499
+    },
+    {
+      "id": "vector_databases_comparison_2025_0",
+      "text": "Title: Vector Databases for RAG Systems: Comparison and Selection Guide (2025)\nSource: Technical documentation and community resources\nSource Type: Technical Guide\nCategory: RAG / Retrieval / Knowledge Systems\nDate: 2025\n\nVector databases are the storage backbone of RAG systems. This document compares the major options and provides selection guidance.\n\nWhat is a Vector Database:\n- Stores high-dimensional embedding vectors alongside metadata\n- Enables efficient similarity search (nearest neighbor search)\n- C",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 0,
+      "char_start": 0,
+      "char_end": 512
+    },
+    {
+      "id": "vector_databases_comparison_2025_1",
+      "text": "nt similarity search (nearest neighbor search)\n- Core infrastructure for RAG, semantic search, and recommendation systems\n- Supports filtering by metadata alongside vector similarity\n\nMajor Vector Database Options:\n\nChromaDB:\n- Type: Embedded Python library (also has server mode)\n- License: Apache 2.0\n- Setup: `pip install chromadb` — no server required\n- Persistence: local disk (SQLite + HNSW index)\n- API: Python-native, simple and intuitive\n- Performance: good for small-medium datasets (<1M vectors)\n- Bes",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 1,
+      "char_start": 462,
+      "char_end": 974
+    },
+    {
+      "id": "vector_databases_comparison_2025_2",
+      "text": "good for small-medium datasets (<1M vectors)\n- Best for: development, prototyping, small production deployments\n- Limitations: not designed for distributed/high-scale production\n\npgvector:\n- Type: PostgreSQL extension\n- License: Open source\n- Setup: requires PostgreSQL + pgvector extension (Docker recommended)\n- Persistence: PostgreSQL database\n- API: SQL + Python (psycopg2, SQLAlchemy)\n- Performance: good, benefits from PostgreSQL query optimization\n- Best for: teams familiar with SQL, need metadata filter",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 2,
+      "char_start": 924,
+      "char_end": 1436
+    },
+    {
+      "id": "vector_databases_comparison_2025_3",
+      "text": "for: teams familiar with SQL, need metadata filtering, production use\n- Advantages: full SQL capabilities, ACID transactions, mature ecosystem\n\nQdrant:\n- Type: Dedicated vector database (server)\n- License: Apache 2.0\n- Setup: Docker or cloud service\n- Persistence: custom storage engine\n- API: REST API + Python client\n- Performance: excellent, designed for high-scale production\n- Best for: high-performance production, advanced filtering, cloud deployment\n- Features: payload filtering, sparse vectors, quantiz",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 3,
+      "char_start": 1386,
+      "char_end": 1898
+    },
+    {
+      "id": "vector_databases_comparison_2025_4",
+      "text": "atures: payload filtering, sparse vectors, quantization\n\nFAISS (Facebook AI Similarity Search):\n- Type: In-memory library\n- License: MIT\n- Setup: `pip install faiss-cpu` or `faiss-gpu`\n- Persistence: manual save/load to disk\n- API: Python/C++ library\n- Performance: excellent for pure vector search\n- Best for: offline processing, no server needed, maximum performance\n- Limitations: no built-in metadata storage, manual persistence\n\nWeaviate:\n- Type: Dedicated vector database (server)\n- License: BSD-3-Clause\n-",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 4,
+      "char_start": 1848,
+      "char_end": 2360
+    },
+    {
+      "id": "vector_databases_comparison_2025_5",
+      "text": "vector database (server)\n- License: BSD-3-Clause\n- Setup: Docker or cloud service\n- API: GraphQL + REST + Python client\n- Best for: complex schema, hybrid search, cloud-native\n\nPinecone:\n- Type: Cloud-only managed service\n- License: Proprietary\n- Setup: API key, no infrastructure management\n- Best for: production with no infrastructure overhead\n- Limitations: vendor lock-in, cost at scale\n\nSelection Guide for HW3:\n\nRecommended: ChromaDB\n- No Docker required (grader-friendly)\n- Simple Python API\n- Sufficient",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 5,
+      "char_start": 2310,
+      "char_end": 2822
+    },
+    {
+      "id": "vector_databases_comparison_2025_6",
+      "text": "(grader-friendly)\n- Simple Python API\n- Sufficient for 20-100 documents\n- Easy to reset and rebuild (--rebuild flag)\n- Persistent to disk automatically\n\nAlternative: pgvector (if Docker is acceptable)\n- Better for production-like setup\n- SQL metadata filtering\n- Requires docker-compose.yml\n\nKey Concepts:\n\nEmbedding Dimensions:\n- paraphrase-multilingual-MiniLM-L12-v2: 384 dimensions\n- all-MiniLM-L6-v2: 384 dimensions\n- all-mpnet-base-v2: 768 dimensions\n- OpenAI text-embedding-3-small: 1536 dimensions\n\nSimila",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 6,
+      "char_start": 2772,
+      "char_end": 3284
+    },
+    {
+      "id": "vector_databases_comparison_2025_7",
+      "text": "AI text-embedding-3-small: 1536 dimensions\n\nSimilarity Metrics:\n- Cosine similarity: most common for text embeddings\n- Euclidean distance: alternative\n- Dot product: for normalized vectors (equivalent to cosine)\n\nHNSW (Hierarchical Navigable Small World):\n- Approximate nearest neighbor algorithm\n- Used by ChromaDB, Qdrant, and others\n- Trade-off: speed vs. recall accuracy\n- Configurable: ef_construction, M parameters\n\nMetadata Filtering:\n- Filter by source, date, category before vector search\n- Reduces sear",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 7,
+      "char_start": 3234,
+      "char_end": 3746
+    },
+    {
+      "id": "vector_databases_comparison_2025_8",
+      "text": "date, category before vector search\n- Reduces search space and improves relevance\n- Essential for large, diverse knowledge bases",
+      "source": "vector_databases_comparison_2025.txt",
+      "chunk_index": 8,
+      "char_start": 3696,
+      "char_end": 3824
+    }
+  ]
+}

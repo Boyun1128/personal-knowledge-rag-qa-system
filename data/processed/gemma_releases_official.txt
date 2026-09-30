@@ -1,0 +1,68 @@
+Title: Gemma Release History — Google AI for Developers
+Source: https://ai.google.dev/gemma/docs/releases
+Source Type: Official Technical Documentation
+Category: Google Gemma Updates, LLM / Foundation Models
+Date: 2025-12-18 (last updated)
+
+Gemma is a family of open models built by Google DeepMind, based on the same research and technology as Gemini. The following is the official release history of the Gemma model family.
+
+Gemma 1 (February 2024):
+- Released February 21, 2024
+- Two sizes: Gemma 2B and Gemma 7B
+- First open-weight models from Google based on Gemini technology
+- Available on Hugging Face, Kaggle, and Google Cloud Vertex AI
+- Supports text generation, summarization, question answering, and reasoning
+
+Gemma 2 (June 2024):
+- Released June 2024
+- Sizes: 2B, 9B, 27B
+- Improved performance over Gemma 1 at equivalent parameter counts
+- Introduced sliding window attention and logit soft-capping
+- Available for fine-tuning and local deployment
+
+Gemma 3 (March 2025):
+- Released March 12, 2025
+- Sizes: 1B, 4B, 12B, 27B
+- First multimodal Gemma: supports vision-language input (images + text)
+- Context window up to 128K tokens
+- Supports 140+ languages
+- Improved math, reasoning, and structured output capabilities
+- Function calling support
+- Based on Gemini 2.0 technology
+- ShieldGemma 2 also released for safety classification
+
+FunctionGemma (December 2025):
+- Released December 2025
+- Based on Gemma 3 270M architecture
+- Specialized for on-device function calling
+- Designed as a base model for fine-tuning into specialized agents
+- Targets resource-constrained hardware (mobile, edge devices)
+- Translates natural language into executable API actions
+
+T5Gemma 2 (December 18, 2025):
+- Released December 18, 2025
+- Encoder-decoder architecture (unlike standard decoder-only Gemma)
+- Built by adapting Gemma 3 pretrained weights into encoder-decoder layout
+- Continued pretraining with UL2 objective
+- First encoder-decoder model with multimodal inputs and 128K context window
+- Supports multilingual processing
+- Tied embeddings between encoder and decoder
+- Merged decoder self- and cross-attention for parameter efficiency
+- Suitable for translation, summarization, and question answering tasks
+
+Gemma 4 (April 2, 2026):
+- Released April 2, 2026
+- Sizes: E2B, E4B, 26B A4B, 31B
+- First Gemma with Mixture-of-Experts (MoE) architecture (26B A4B variant)
+- Full multimodal: text, image, video, and audio input
+- Apache 2.0 license (most permissive Gemma license to date)
+- Runs on a single 80GB NVIDIA H100 GPU (31B variant)
+- Designed for agentic workflows and complex reasoning
+- Built from same research as Gemini 3
+- Benchmark scores rival models 20x their size
+
+Key Technical Positioning:
+- Gemma models are designed to be lightweight, efficient, and suitable for local deployment
+- Complement large commercial APIs (GPT, Claude, Gemini Pro) with open-weight alternatives
+- Integrated into Vertex AI, GKE, Google Cloud for enterprise deployment
+- Suitable for fine-tuning, RAG systems, and on-device inference

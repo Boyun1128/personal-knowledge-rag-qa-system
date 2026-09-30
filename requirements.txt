@@ -1,0 +1,11 @@
+# Python >= 3.10 required (developed with 3.11.9)
+# Using FAISS instead of ChromaDB to avoid sqlite3 version issues on Windows
+faiss-cpu>=1.7.4
+numpy<2.0
+sentence-transformers>=2.7.0
+litellm>=1.40.0
+python-dotenv>=1.0.0
+pypdf2>=3.0.0
+requests>=2.31.0
+hypothesis>=6.100.0
+pytest>=8.0.0

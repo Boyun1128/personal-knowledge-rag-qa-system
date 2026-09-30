@@ -1,0 +1,88 @@
+Title: Retrieval-Augmented Generation: Survey of Architectures, Enhancements, and Robustness
+Source: https://arxiv.org/abs/2506.00054 (and related: https://arxiv.org/html/2402.19473v5)
+Source Type: Academic Survey Paper (arXiv)
+Category: RAG / Retrieval / Knowledge Systems
+Date: 2024-2025
+
+Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm to enhance large language models (LLMs) by conditioning generation on external evidence retrieved at inference time.
+
+Core RAG Architecture:
+1. Retrieval Component: Finds relevant documents/passages from a knowledge base
+2. Augmentation: Combines retrieved content with the user query
+3. Generation: LLM generates response grounded in retrieved evidence
+
+Why RAG Matters:
+- Reduces hallucinations by grounding responses in retrieved facts
+- Enables up-to-date knowledge without retraining the model
+- Provides verifiable, traceable responses with citations
+- Cost-effective alternative to full model fine-tuning
+- Enables domain-specific knowledge without exposing training data
+
+Key RAG Variants and Enhancements:
+
+Naive RAG:
+- Simple retrieve-then-generate pipeline
+- Fixed chunking, basic similarity search
+- Limitations: retrieval quality bottleneck, context window constraints
+
+Advanced RAG:
+- Query rewriting and expansion
+- Hybrid search (dense + sparse retrieval)
+- Re-ranking retrieved passages
+- Iterative retrieval
+
+Modular RAG:
+- Flexible pipeline with swappable components
+- Routing, scheduling, and fusion modules
+- Supports complex multi-step retrieval
+
+Agentic RAG (2024-2025 trend):
+Source: https://arxiv.org/html/2501.09136v1
+- LLM agent decides when and what to retrieve
+- Multi-step retrieval with planning
+- Tool-use integration for dynamic knowledge access
+- Self-reflection on retrieved content quality
+
+Graph RAG:
+Source: https://arxiv.org/html/2408.08921v1
+- Knowledge graph integration
+- Handles complex entity relationships
+- Better for multi-hop reasoning
+
+Long-Context RAG:
+- Extended context windows (128K+) reduce need for chunking
+- Trade-off: retrieval precision vs. context stuffing
+- Hybrid approaches combining retrieval with long context
+
+Embedding Models for RAG:
+- Dense retrieval: sentence-transformers, OpenAI embeddings
+- Sparse retrieval: BM25, SPLADE
+- Hybrid: combines dense and sparse signals
+- Multilingual: paraphrase-multilingual-MiniLM-L12-v2 for non-English content
+
+Vector Databases:
+- ChromaDB: Simple, Python-native, no server required
+- pgvector: PostgreSQL extension, SQL + vector search
+- Qdrant: High performance, REST API
+- FAISS: In-memory, no server, Meta-developed
+- Weaviate, Pinecone: Cloud-native options
+
+RAG Evaluation Challenges:
+Source: https://arxiv.org/abs/2504.14891
+- Retrieval quality: precision, recall, MRR
+- Generation quality: faithfulness, relevance, completeness
+- End-to-end: answer correctness, citation accuracy
+- Frameworks: RAGAS, TruLens, DeepEval
+
+Current Research Directions (2024-2025):
+1. Trustworthy RAG: reducing hallucinations in retrieved-grounded generation
+2. Multimodal RAG: retrieving images, tables, code alongside text
+3. Streaming RAG: real-time retrieval for live data
+4. Personalized RAG: user-specific knowledge bases
+5. RAG + Agents: dynamic retrieval within agentic workflows
+
+Practical Considerations:
+- Chunk size: 256-512 tokens typical, with 50-100 token overlap
+- Top-k retrieval: 3-10 chunks depending on context window
+- Similarity threshold: filter low-relevance chunks to avoid noise
+- Metadata filtering: source, date, category for targeted retrieval

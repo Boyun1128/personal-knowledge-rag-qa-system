@@ -1,0 +1,58 @@
+Title: AI Index 2025: State of AI in 10 Charts
+Source: https://hai.stanford.edu/news/ai-index-2025-state-of-ai-in-10-charts
+Source Type: Academic Research Report (Stanford HAI)
+Category: Trend Signals / Important Releases, Evaluation / Benchmark / Observability
+Date: 2025
+
+The Stanford Human-Centered AI (HAI) Institute's AI Index provides annual data-driven analysis of AI progress, investment, and societal impact.
+
+Key Statistics on AI Rapid Evolution:
+
+Inference Cost Collapse:
+- Cost of querying a GPT-3.5 equivalent model (64.8% MMLU accuracy):
+  - November 2022: $20 per million tokens
+  - October 2024: $0.07 per million tokens (Gemini-1.5-Flash-8B)
+  - Reduction: more than 280-fold in approximately 18 months
+- This cost collapse is unprecedented in technology history
+- Enables applications that were economically infeasible 2 years ago
+
+Model Release Pace:
+- Number of significant AI model releases has accelerated dramatically
+- Both open-source and proprietary models releasing at increasing frequency
+- The gap between state-of-the-art and accessible models has narrowed
+
+Benchmark Saturation:
+- Many traditional benchmarks (MMLU, HumanEval) approaching saturation
+- New, harder benchmarks being created to differentiate frontier models
+- Benchmark performance no longer sufficient to predict real-world utility
+
+Investment and Adoption:
+- Corporate AI investment: $252 billion in 2025 (up 44% from 2024)
+- Private funding for generative AI: $33.9 billion
+- 65% of enterprises deployed generative AI in production (up from scattered pilots)
+- Tripling of AI startup formations
+
+Capability Milestones:
+- Multimodal AI: now standard in frontier models
+- Reasoning: chain-of-thought and extended thinking now common
+- Code generation: AI-assisted coding adopted by majority of developers
+- Long context: 1M+ token context windows available
+
+The Knowledge Keeping-Up Problem:
+- The pace of AI advancement creates a "knowledge half-life" problem
+- Skills and knowledge about specific models become outdated quickly
+- Researchers and practitioners report difficulty tracking all relevant developments
+- The field is moving faster than academic publication cycles
+- Pre-print culture (arXiv) has become essential for staying current
+
+Implications for Researchers:
+- Traditional literature review cycles (months) are too slow
+- Need for automated knowledge tracking systems (like RAG)
+- Community curation (Hugging Face, Papers With Code) becoming essential
+- The ability to quickly assess new models is a competitive advantage
+
+Why This Data Matters for RAG Knowledge Bases:
+- Quantifies the pace of change that makes knowledge management critical
+- Provides authoritative benchmarks for comparing model generations
+- Stanford HAI is a credible, citable source for academic work
+- Data supports the thesis that AI is evolving faster than humans can track

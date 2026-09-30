@@ -1,0 +1,79 @@
+Title: Introducing Gemma 3n: Mobile-First Architecture for On-Device AI
+Source: https://developers.googleblog.com/en/introducing-gemma-3n-developer-guide/
+Source Type: Official Google Developers Blog
+Category: Google Gemma Updates, Fine-tuning / Inference / Serving
+Date: June 2025
+
+Gemma 3n is a mobile-first architecture that brings powerful multimodal capabilities to edge devices, with performance previously only seen in cloud-based frontier models.
+
+What is Gemma 3n:
+- Mobile-first design: optimized for smartphones and edge devices
+- Multimodal: supports text, image, audio, and video input
+- Efficient architecture: novel design for on-device deployment
+- Full release: June 2025 (preview was earlier)
+
+Key Innovations in Gemma 3n:
+
+MatFormer Architecture:
+- Novel architecture designed for flexible deployment
+- Can be "sliced" to different sizes without retraining
+- Enables a single model to serve multiple hardware tiers
+- Reduces the need for separate models for different devices
+
+Per-Layer Embeddings (PLE):
+- Efficient embedding strategy
+- Reduces memory footprint
+- Enables larger effective model capacity with less memory
+
+Multimodal on Edge:
+- Audio understanding on mobile devices
+- Image analysis without cloud connectivity
+- Video frame processing
+- Text generation with multimodal context
+
+Performance:
+- Outperforms previous on-device models significantly
+- Competitive with last year's cloud-based frontier models
+- Runs on consumer smartphones (Android, iOS)
+
+Supported Frameworks:
+- Hugging Face Transformers
+- llama.cpp
+- Google AI Edge
+- Ollama
+- MLX (Apple Silicon)
+- Fine-tuning supported
+
+Use Cases:
+- Mobile AI assistants
+- Offline document analysis
+- Privacy-preserving AI (data stays on device)
+- Low-latency applications
+- Areas with limited connectivity
+
+Developer Experience:
+- Available on Hugging Face
+- Google AI Studio for testing
+- Kaggle notebooks for experimentation
+- Comprehensive documentation and tutorials
+
+Why Gemma 3n Matters:
+- Demonstrates that frontier AI capabilities can run on consumer hardware
+- Privacy: sensitive data never leaves the device
+- Latency: no network round-trip
+- Cost: no API charges for inference
+- Accessibility: AI in areas with limited internet connectivity
+
+The On-Device AI Trend:
+- Apple Intelligence: on-device AI for iPhone/Mac
+- Google Gemini Nano: on-device Gemini for Pixel phones
+- Gemma 3n: open-source on-device multimodal AI
+- FunctionGemma: on-device function calling
+- The trend: frontier capabilities moving to edge devices
+- Implication: AI is becoming ambient, not just cloud-based
+
+Comparison with Cloud Models:
+- Cloud: higher capability, requires connectivity, has cost
+- On-device: lower capability, offline, free inference
+- The gap is narrowing rapidly
+- Gemma 3n represents a significant step in closing this gap

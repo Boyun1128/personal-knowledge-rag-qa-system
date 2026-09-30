@@ -1,0 +1,107 @@
+Title: LiteLLM: Unified Interface for 100+ LLM Providers
+Source: https://github.com/BerriAI/litellm (official GitHub)
+Source Type: Official Technical Documentation
+Category: Fine-tuning / Inference / Serving, RAG / Retrieval / Knowledge Systems
+Date: 2024-2025
+
+LiteLLM is an open-source Python library that provides a unified interface for calling 100+ LLM providers using the OpenAI API format. It simplifies switching between models and providers without changing application code.
+
+What is LiteLLM:
+- Unified API: call any LLM with the same code
+- OpenAI-compatible: uses the same message format as OpenAI
+- 100+ providers: OpenAI, Anthropic, Google, Cohere, Hugging Face, and more
+- Proxy server: deploy as a centralized LLM gateway
+- Cost tracking: monitor spending across providers
+
+Installation:
+```
+pip install litellm
+```
+
+Basic Usage:
+```python
+from litellm import completion
+
+# Call any model with the same interface
+response = completion(
+    model="gemini/gemini-2.5-flash",  # or "gpt-4o", "claude-3-5-sonnet", etc.
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": "What is RAG?"}
+    ]
+)
+
+print(response.choices[0].message.content)
+```
+
+Supported Providers (selection):
+- OpenAI: gpt-4o, gpt-4-turbo, gpt-3.5-turbo
+- Anthropic: claude-3-5-sonnet, claude-3-opus
+- Google: gemini/gemini-2.5-flash, gemini/gemini-1.5-pro
+- Meta: llama-3.1-70b (via various providers)
+- Mistral: mistral-large, mistral-7b
+- Local: ollama/llama3, ollama/gemma3
+
+Environment Variables:
+```bash
+# For Google Gemini via LiteLLM proxy
+LITELLM_API_KEY=your_key_here
+LITELLM_BASE_URL=https://your-litellm-endpoint/
+
+# Or direct API keys
+GEMINI_API_KEY=your_gemini_key
+ANTHROPIC_API_KEY=your_anthropic_key
+OPENAI_API_KEY=your_openai_key
+```
+
+LiteLLM Proxy Server:
+- Deploy as a centralized gateway
+- Route requests to different providers
+- Add authentication, rate limiting, logging
+- Used by organizations to manage LLM access
+- The course instructor uses LiteLLM proxy to provide unified access
+
+Key Features for RAG Systems:
+- Streaming: stream responses for better UX
+- Async: async/await support for concurrent requests
+- Retry: automatic retry on failures
+- Fallback: fall back to alternative models on failure
+- Cost tracking: monitor token usage and costs
+
+Embedding Support:
+```python
+from litellm import embedding
+
+# Via Hugging Face (requires HF_TOKEN)
+response = embedding(
+    model="huggingface/sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    input=["text to embed"]
+)
+```
+
+Why LiteLLM Matters for AI Rapid Evolution:
+- New models can be adopted without changing application code
+- Switch from GPT-4 to Gemini to Claude with one line change
+- Enables experimentation with new models as they release
+- Reduces vendor lock-in
+- The course uses LiteLLM to abstract away the specific model provider
+
+Model Switching Example:
+```python
+# Test with different models without changing RAG logic
+models_to_test = [
+    "gemini/gemini-2.5-flash",
+    "gpt-4o-mini",
+    "claude-3-haiku"
+]
+
+for model in models_to_test:
+    response = completion(model=model, messages=messages)
+    # Same code, different models
+```
+
+The LiteLLM Ecosystem:
+- Actively maintained with frequent updates
+- New model support added within days of model releases
+- Community-driven provider integrations
+- Used in production by many organizations

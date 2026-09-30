@@ -1,0 +1,83 @@
+Title: The State of Open-Source AI Models in 2025
+Source: https://developers.redhat.com/articles/2026/01/07/state-open-source-ai-models-2025
+Source Type: Technical Analysis Article
+Category: Open-source Ecosystem Updates, LLM / Foundation Models
+Date: January 2026 (reviewing 2025)
+
+2025 was a landmark year for open-source AI models, with capabilities that previously required massive commercial infrastructure becoming accessible to individual developers and organizations.
+
+Major Open-Source Model Families (2024-2025):
+
+Meta Llama Family:
+- Llama 3 (mid-2024): 8B, 70B, 405B parameters
+- Llama 3.1 405B: Competitive with GPT-4 on many benchmarks
+- Llama 3.3 70B: Strong performance, practical deployment size
+- License: Custom Meta license (permissive for most uses)
+- Available on Hugging Face
+
+Mistral Family:
+- Mistral 7B: Efficient, strong European alternative
+- Mixtral 8x7B: Mixture-of-Experts, efficient inference
+- Mistral Large: Competitive with GPT-4 class models
+- Multilingual capabilities
+- Apache 2.0 license
+
+DeepSeek Family:
+- DeepSeek-V3: 88.5% on MMLU, competitive with GPT-4o (88.1%)
+- DeepSeek-R1 (January 2025): Strongest open-source reasoning model
+- Disrupted the industry by achieving frontier performance at dramatically lower cost
+- Showed that frontier AI is achievable without massive compute budgets
+
+Qwen Family (Alibaba):
+- Qwen 2.5 72B: Leading Chinese open-source model
+- Strong multilingual capabilities
+- Competitive on coding and math benchmarks
+
+Google Gemma Family:
+- Gemma 1 (Feb 2024) → Gemma 2 (Jun 2024) → Gemma 3 (Mar 2025) → Gemma 4 (Apr 2026)
+- Fastest iteration cycle among major model families
+- Unique: multimodal from Gemma 3 onwards
+- Apache 2.0 license from Gemma 4
+
+Microsoft Phi Family:
+- Phi-3: Small but capable models (3.8B, 7B, 14B)
+- Focus on efficiency and reasoning
+- Suitable for edge deployment
+
+Key Trends in Open-Source LLMs (2025):
+
+1. Capability Compression:
+- Models 10x smaller achieving performance of previous generation large models
+- Inference cost for GPT-3.5 equivalent dropped 280x from 2022 to 2024
+- Trend accelerating in 2025
+
+2. Multimodal Democratization:
+- Vision-language capabilities now in open models (Gemma 3, LLaVA, Idefics)
+- Previously only available in commercial APIs
+
+3. Long Context:
+- 128K context windows now standard in frontier open models
+- Enables document analysis without chunking
+
+4. Reasoning Models:
+- Chain-of-thought reasoning built into model training
+- DeepSeek-R1 showed open-source can match commercial reasoning models
+
+5. Specialization:
+- Domain-specific fine-tuned models proliferating
+- Code models: DeepSeek Coder, Code Llama
+- Math models: specialized reasoning models
+- Function calling: FunctionGemma, specialized tool-use models
+
+Hugging Face Ecosystem:
+- Central hub for open-source model distribution
+- Open LLM Leaderboard: standardized benchmarking
+- Model cards: documentation and responsible AI
+- Spaces: interactive demos
+- Inference API: easy model testing
+
+The Pace Problem:
+- New significant model releases: approximately weekly in 2025
+- Researchers report difficulty tracking all relevant releases
+- The "imitation cycle" compressed from 12 months to 6 weeks
+- Knowledge about model capabilities becomes outdated within months

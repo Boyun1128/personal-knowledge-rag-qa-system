@@ -1,0 +1,56 @@
+Title: Gemma 4 — Google DeepMind Open-Weight Multimodal AI
+Source: https://ai.google.dev/gemma/docs/core/model_card_4
+Source Type: Official Model Card + Google DeepMind Announcement
+Category: Google Gemma Updates, LLM / Foundation Models, Multimodal Models
+Date: April 2, 2026
+
+Google DeepMind officially released Gemma 4 on April 2, 2026, marking a major milestone in open-source AI. This family of models delivers frontier-level intelligence per parameter, built from the same research and technology powering Gemini 3.
+
+Model Sizes and Variants:
+- E2B: Edge 2B parameters, suitable for smartphones
+- E4B: Edge 4B parameters, balanced edge deployment
+- 26B A4B: 26B total parameters, 4B active (Mixture-of-Experts)
+- 31B: Dense 31B parameter model, fits on single 80GB H100 GPU
+
+Key Architectural Innovations:
+1. Mixture-of-Experts (MoE): The 26B A4B variant uses MoE, activating only 4B parameters per token
+2. Full multimodal: text, image, video, and audio input support
+3. Audio support on small models (E2B, E4B)
+4. Hybrid attention mechanism
+5. Progressive Layer Expansion (PLE) for efficient scaling
+
+License Change:
+- Apache 2.0 license (most permissive Gemma license to date)
+- Previous Gemma versions used a custom Gemma license
+- Apache 2.0 enables broader commercial use and modification
+
+Performance:
+- Benchmark scores rival models 20x their size
+- Runs frontier AI on a single GPU (31B on 80GB H100)
+- Competitive with GPT-4 class models on many benchmarks
+- Designed for agentic workflows and complex reasoning
+
+Deployment Scenarios:
+- E2B/E4B: Smartphones, embedded devices, edge inference
+- 26B A4B: Workstation-class deployment with MoE efficiency
+- 31B: Single high-end GPU server deployment
+
+Agentic Capabilities:
+- Designed specifically for autonomous agentic workflows
+- Multi-step planning and reasoning
+- Tool use without fine-tuning
+- Complex reasoning chains
+
+Availability:
+- Hugging Face: google/gemma-4-26B-A4B-it, google/gemma-4-31B-it, etc.
+- Google AI Studio
+- Vertex AI
+- Kaggle
+
+Why Gemma 4 Represents AI Rapid Evolution:
+- Released just 13 months after Gemma 3
+- Jumped from decoder-only to full multimodal (text+image+video+audio)
+- Introduced MoE architecture for the first time in Gemma family
+- License became fully open-source (Apache 2.0)
+- Frontier-level performance now accessible on consumer hardware
+- Demonstrates the compression of capabilities: what required massive compute in 2023 now runs on a phone

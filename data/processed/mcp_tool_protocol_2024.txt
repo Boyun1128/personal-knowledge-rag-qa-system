@@ -1,0 +1,86 @@
+Title: Model Context Protocol (MCP): Standardizing AI Tool Integration
+Source: https://arxiv.org/html/2505.16700v1 (MCP-Radar benchmark) and official MCP documentation
+Source Type: Technical Overview + Academic Reference
+Category: Agent / Tool Use / Workflow Automation
+Date: 2024-2025
+
+Model Context Protocol (MCP) is an open standard for connecting AI models to external tools, data sources, and services. Introduced by Anthropic in late 2024, it has rapidly become a de facto standard for AI tool integration.
+
+What is MCP:
+- Open protocol for AI model-tool communication
+- Standardizes how models discover and call external tools
+- Enables any AI application to connect to any MCP-compatible tool
+- Similar to USB-C for AI: universal connector for AI capabilities
+
+Core Components:
+
+MCP Servers:
+- Expose tools, resources, and prompts to AI models
+- Can be local (filesystem, databases) or remote (APIs, services)
+- Examples: filesystem server, GitHub server, Postgres server, web search server
+
+MCP Clients:
+- AI applications that connect to MCP servers
+- Examples: Claude Desktop, Cursor, Kiro, custom applications
+
+MCP Protocol:
+- JSON-RPC based communication
+- Tool discovery: models can list available tools
+- Tool invocation: standardized request/response format
+- Resource access: files, databases, APIs
+
+Why MCP Matters:
+
+Before MCP:
+- Each AI application had custom tool integration
+- Developers had to write separate integrations for each tool
+- No standardization across different AI models
+- Tool integrations were not reusable
+
+After MCP:
+- Write a tool once, use with any MCP-compatible AI
+- Standardized discovery and invocation
+- Growing ecosystem of pre-built MCP servers
+- Reduces integration overhead significantly
+
+MCP Ecosystem (2025):
+- Official MCP servers: filesystem, GitHub, Postgres, Slack, Google Drive
+- Community servers: hundreds of integrations
+- Supported clients: Claude Desktop, Cursor, Kiro, VS Code extensions
+- Framework support: LangChain, LlamaIndex adding MCP support
+
+MCP-Radar Benchmark:
+Source: https://arxiv.org/html/2505.16700v1
+- First comprehensive benchmark for LLM performance in MCP framework
+- Five dimensions: answer accuracy, tool selection efficiency, computational resource efficiency, parameter construction accuracy, execution speed
+- Reveals significant variation in model performance on MCP tasks
+- GPT-4o and Claude 3.5 Sonnet perform best on MCP benchmarks
+
+Technical Details:
+
+Tool Schema:
+- JSON Schema for tool parameters
+- Name, description, input schema
+- Models use descriptions to decide when to call tools
+
+Resource Types:
+- Tools: functions that can be called
+- Resources: data that can be read (files, database records)
+- Prompts: reusable prompt templates
+
+Security Considerations:
+- Tool permissions and access control
+- Sandboxing for code execution tools
+- Audit logging for tool calls
+
+Adoption and Impact:
+- Anthropic open-sourced MCP in November 2024
+- Rapid adoption by major AI tool vendors
+- Microsoft, Google, and OpenAI supporting MCP
+- Becoming the standard for AI agent tool integration
+
+Why MCP Represents AI Rapid Evolution:
+- Went from announcement to widespread adoption in <6 months
+- Solving a real pain point (tool integration fragmentation)
+- Community-driven ecosystem growing rapidly
+- Demonstrates how quickly new standards can emerge and be adopted in AI

@@ -1,0 +1,75 @@
+Title: Survey on Evaluation of LLM-based Agents
+Source: https://arxiv.org/html/2503.16416
+Source Type: Academic Survey Paper (arXiv)
+Category: Agent / Tool Use / Workflow Automation
+Date: 2025
+
+The emergence of LLM-based agents represents a paradigm shift in AI, enabling autonomous systems to plan, reason, use tools, and maintain memory while interacting with dynamic environments.
+
+What is an LLM Agent:
+An LLM agent is an AI system that uses a large language model as its reasoning core, augmented with:
+- Planning: breaking complex tasks into subtasks
+- Memory: short-term (context) and long-term (external storage)
+- Tool use: calling APIs, executing code, searching the web
+- Perception: processing multimodal inputs
+- Action: executing actions in digital or physical environments
+
+Core Agent Architectures:
+
+ReAct (Reasoning + Acting):
+- Interleaves reasoning traces with action execution
+- Enables transparent, debuggable agent behavior
+- Foundation for many production agent systems
+
+Chain-of-Thought + Tool Use:
+- Extended reasoning before tool calls
+- Better accuracy on complex multi-step tasks
+
+Multi-Agent Systems:
+- Multiple specialized agents collaborating
+- Orchestrator + worker agent patterns
+- Enables parallelization of complex workflows
+
+Key Tool Use Capabilities:
+- Web search and browsing
+- Code execution (Python, bash)
+- File system operations
+- API calls (REST, GraphQL)
+- Database queries
+- Calculator and math tools
+- Image generation and analysis
+
+Agent Frameworks (2024-2025):
+- LangChain / LangGraph: Most widely adopted, Python-native
+- CrewAI: Multi-agent orchestration
+- AutoGen (Microsoft): Conversational multi-agent
+- Semantic Kernel (Microsoft): Enterprise-focused
+- LlamaIndex: RAG-focused agent framework
+- Haystack: Production RAG + agent pipelines
+
+Benchmark Results (2024-2025):
+Source: https://arxiv.org/html/2407.08713v1
+- Real-world tasks remain challenging: GPT-4 completes <50% of complex tasks
+- Most LLMs achieve <25% on comprehensive tool-use benchmarks
+- Significant gap between benchmark performance and real-world deployment
+
+Key Challenges:
+1. Reliability: agents fail unpredictably on edge cases
+2. Long-horizon planning: multi-step tasks with many dependencies
+3. Tool selection: choosing the right tool from large tool sets
+4. Error recovery: handling tool failures gracefully
+5. Context management: maintaining relevant state across many steps
+
+2025 Trends in Agent Development:
+- Agentic RL: reinforcement learning for better tool use
+- MCP (Model Context Protocol): standardized tool integration
+- On-device agents: FunctionGemma, small specialized models
+- Enterprise agents: workflow automation, customer service
+- Scientific agents: automated research and experimentation
+
+Why Agents Matter for AI Rapid Evolution:
+- Agents represent AI moving from "answering questions" to "solving tasks"
+- The pace of agent capability improvement is accelerating
+- New frameworks and tools emerge monthly
+- Researchers struggle to keep up with the agent ecosystem
+- Production deployment of agents is now a real engineering challenge

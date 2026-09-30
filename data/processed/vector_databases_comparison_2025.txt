@@ -1,0 +1,107 @@
+Title: Vector Databases for RAG Systems: Comparison and Selection Guide (2025)
+Source: Technical documentation and community resources
+Source Type: Technical Guide
+Category: RAG / Retrieval / Knowledge Systems
+Date: 2025
+
+Vector databases are the storage backbone of RAG systems. This document compares the major options and provides selection guidance.
+
+What is a Vector Database:
+- Stores high-dimensional embedding vectors alongside metadata
+- Enables efficient similarity search (nearest neighbor search)
+- Core infrastructure for RAG, semantic search, and recommendation systems
+- Supports filtering by metadata alongside vector similarity
+
+Major Vector Database Options:
+
+ChromaDB:
+- Type: Embedded Python library (also has server mode)
+- License: Apache 2.0
+- Setup: `pip install chromadb` — no server required
+- Persistence: local disk (SQLite + HNSW index)
+- API: Python-native, simple and intuitive
+- Performance: good for small-medium datasets (<1M vectors)
+- Best for: development, prototyping, small production deployments
+- Limitations: not designed for distributed/high-scale production
+
+pgvector:
+- Type: PostgreSQL extension
+- License: Open source
+- Setup: requires PostgreSQL + pgvector extension (Docker recommended)
+- Persistence: PostgreSQL database
+- API: SQL + Python (psycopg2, SQLAlchemy)
+- Performance: good, benefits from PostgreSQL query optimization
+- Best for: teams familiar with SQL, need metadata filtering, production use
+- Advantages: full SQL capabilities, ACID transactions, mature ecosystem
+
+Qdrant:
+- Type: Dedicated vector database (server)
+- License: Apache 2.0
+- Setup: Docker or cloud service
+- Persistence: custom storage engine
+- API: REST API + Python client
+- Performance: excellent, designed for high-scale production
+- Best for: high-performance production, advanced filtering, cloud deployment
+- Features: payload filtering, sparse vectors, quantization
+
+FAISS (Facebook AI Similarity Search):
+- Type: In-memory library
+- License: MIT
+- Setup: `pip install faiss-cpu` or `faiss-gpu`
+- Persistence: manual save/load to disk
+- API: Python/C++ library
+- Performance: excellent for pure vector search
+- Best for: offline processing, no server needed, maximum performance
+- Limitations: no built-in metadata storage, manual persistence
+
+Weaviate:
+- Type: Dedicated vector database (server)
+- License: BSD-3-Clause
+- Setup: Docker or cloud service
+- API: GraphQL + REST + Python client
+- Best for: complex schema, hybrid search, cloud-native
+
+Pinecone:
+- Type: Cloud-only managed service
+- License: Proprietary
+- Setup: API key, no infrastructure management
+- Best for: production with no infrastructure overhead
+- Limitations: vendor lock-in, cost at scale
+
+Selection Guide for HW3:
+
+Recommended: ChromaDB
+- No Docker required (grader-friendly)
+- Simple Python API
+- Sufficient for 20-100 documents
+- Easy to reset and rebuild (--rebuild flag)
+- Persistent to disk automatically
+
+Alternative: pgvector (if Docker is acceptable)
+- Better for production-like setup
+- SQL metadata filtering
+- Requires docker-compose.yml
+
+Key Concepts:
+
+Embedding Dimensions:
+- paraphrase-multilingual-MiniLM-L12-v2: 384 dimensions
+- all-MiniLM-L6-v2: 384 dimensions
+- all-mpnet-base-v2: 768 dimensions
+- OpenAI text-embedding-3-small: 1536 dimensions
+
+Similarity Metrics:
+- Cosine similarity: most common for text embeddings
+- Euclidean distance: alternative
+- Dot product: for normalized vectors (equivalent to cosine)
+
+HNSW (Hierarchical Navigable Small World):
+- Approximate nearest neighbor algorithm
+- Used by ChromaDB, Qdrant, and others
+- Trade-off: speed vs. recall accuracy
+- Configurable: ef_construction, M parameters
+
+Metadata Filtering:
+- Filter by source, date, category before vector search
+- Reduces search space and improves relevance
+- Essential for large, diverse knowledge bases

@@ -1,0 +1,89 @@
+Title: LLM Inference and Serving: vLLM, Ollama, and Production Deployment
+Source: https://www.digitalapplied.com/blog/open-source-ai-models-enterprise-guide-2026
+Source Type: Technical Guide
+Category: Fine-tuning / Inference / Serving
+Date: 2025-2026
+
+Deploying LLMs in production requires specialized inference infrastructure. This document covers the key tools, frameworks, and strategies for efficient LLM serving.
+
+Key Inference Frameworks:
+
+vLLM:
+- Production standard for high-throughput LLM serving
+- PagedAttention: efficient KV cache management
+- Continuous batching: maximizes GPU utilization
+- Supports: Llama, Gemma, Mistral, Qwen, and most major models
+- OpenAI-compatible API
+- Kubernetes deployment with Prometheus observability
+- Best for: high-traffic production APIs
+
+Ollama:
+- Developer-friendly local deployment
+- Simple CLI: `ollama pull gemma3:4b && ollama run gemma3:4b`
+- Supports: Llama, Gemma, Mistral, Phi, and many others
+- Automatic model quantization
+- REST API for local development
+- Best for: local development, single-user scenarios, MacBook deployment
+
+llama.cpp:
+- CPU-optimized inference
+- GGUF model format
+- Runs on CPU without GPU
+- Supports quantization (Q4, Q8, etc.)
+- Best for: CPU-only environments, edge deployment
+
+TensorRT-LLM (NVIDIA):
+- Maximum GPU performance
+- NVIDIA-specific optimizations
+- Best for: NVIDIA GPU production deployment
+
+Hugging Face Transformers:
+- Reference implementation
+- Easiest to use for experimentation
+- Not optimized for production throughput
+- Best for: research, fine-tuning, prototyping
+
+Quantization Strategies:
+- INT8: ~2x memory reduction, minimal quality loss
+- INT4 (GPTQ, AWQ): ~4x memory reduction, small quality loss
+- GGUF (llama.cpp): flexible quantization levels
+- Enables running larger models on smaller hardware
+
+Hardware Requirements (approximate):
+- 7B model (FP16): ~14GB VRAM (RTX 3090/4090)
+- 7B model (INT4): ~4GB VRAM (RTX 3060)
+- 13B model (FP16): ~26GB VRAM (A100 40GB)
+- 70B model (INT4): ~35GB VRAM (A100 80GB)
+- Gemma 3 27B (FP16): ~54GB VRAM
+- Gemma 4 31B (FP16): ~62GB VRAM (fits on H100 80GB)
+
+Serving Architecture Patterns:
+
+Single-GPU Deployment:
+- Suitable for: development, low-traffic APIs
+- Tools: vLLM, Ollama, llama.cpp
+- Models: up to 13B (FP16) or 70B (INT4)
+
+Multi-GPU Deployment:
+- Tensor parallelism: split model across GPUs
+- Pipeline parallelism: split layers across GPUs
+- Tools: vLLM with tensor_parallel_size parameter
+
+Cloud Deployment:
+- Vertex AI (Google): managed Gemma deployment
+- AWS SageMaker: managed endpoint deployment
+- Azure ML: managed deployment
+- Replicate, Modal, RunPod: serverless GPU options
+
+Cost Optimization:
+- Spot/preemptible instances: 60-80% cost reduction
+- Quantization: reduce memory, enable smaller/cheaper GPUs
+- Batching: maximize throughput per GPU-hour
+- Caching: cache common query embeddings and responses
+
+The Serving Landscape is Evolving Rapidly:
+- vLLM releases new versions approximately weekly
+- New quantization methods (AWQ, GPTQ, GGUF) emerged in 2023-2024
+- Speculative decoding: 2-3x speedup with draft models
+- Flash Attention 2/3: significant memory and speed improvements
+- The "best" serving stack changes every few months

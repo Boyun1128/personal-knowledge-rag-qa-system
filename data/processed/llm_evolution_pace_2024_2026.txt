@@ -1,0 +1,80 @@
+Title: LLM Model Evolution 2024-2026: The Accelerating Pace of AI Development
+Source: https://www.llm-evolution.com/ and https://magazine.sebastianraschka.com/p/state-of-llms-2025
+Source Type: Technical Analysis
+Category: Trend Signals / Important Releases, LLM / Foundation Models
+Date: 2025-2026
+
+The pace of LLM development has accelerated dramatically, with the "imitation cycle" — the time for competitors to match a new model's capabilities — compressing from 12 months to 6 weeks.
+
+Timeline of Major LLM Milestones (2022-2026):
+
+2022:
+- November: ChatGPT released (GPT-3.5)
+- Inference cost: $20 per million tokens for GPT-3.5 equivalent
+
+2023:
+- March: GPT-4 released
+- July: Llama 2 (Meta) — open-source milestone
+- September: Mistral 7B — efficient open-source model
+- October: GPT-4V — vision capabilities
+
+2024:
+- February: Gemma 1 (Google) — first open Gemini-based model
+- April: Llama 3 (Meta) — 8B, 70B, 405B
+- June: Gemma 2 (Google)
+- June: Claude 3.5 Sonnet
+- July: Llama 3.1 405B — competitive with GPT-4
+- September: Qwen 2.5 (Alibaba)
+- October: Inference cost: $0.07 per million tokens (280x reduction in 18 months)
+- December: DeepSeek V3
+
+2025:
+- January: DeepSeek R1 — frontier reasoning at 1/10th cost
+- March: Gemma 3 — multimodal, 128K context
+- March: GPT-4.5
+- April: Llama 4 (Meta)
+- May: Claude 4
+- June: Gemini 2.5 Pro
+- December: FunctionGemma, T5Gemma 2
+
+2026:
+- April: Gemma 4 — Apache 2.0, MoE, full multimodal
+
+Key Observations:
+
+Capability Compression:
+- What required GPT-4 in 2023 can be done by a 7B open-source model in 2025
+- Multimodal capabilities: commercial-only in 2023, open-source in 2025
+- 128K context: rare in 2023, standard in 2025
+- Reasoning: specialized in 2024, widespread in 2025
+
+Cost Collapse:
+- 280x cost reduction in 18 months (2022-2024)
+- Trend continues in 2025-2026
+- Enables applications that were economically infeasible 2 years ago
+
+The Knowledge Half-Life Problem:
+- A researcher who learned about "state-of-the-art" models in early 2024 would be significantly outdated by late 2024
+- The "best" open-source model changes approximately every 2-3 months
+- Technical skills for specific models become obsolete quickly
+- Framework APIs change frequently (LangChain, LlamaIndex breaking changes)
+
+Implications for Researchers and Practitioners:
+1. Continuous learning is mandatory, not optional
+2. Generalist knowledge (architectures, training methods) more durable than specific model knowledge
+3. Community resources (Hugging Face, Papers With Code, arXiv) essential for staying current
+4. RAG systems for knowledge management are increasingly valuable
+5. The ability to quickly evaluate new models is a competitive advantage
+
+The Scaling Law Debate (2024-2025):
+- 2024: researchers began questioning whether scaling laws would continue
+- DeepSeek R1 showed efficiency gains can substitute for scale
+- Mixture-of-Experts: more parameters, same compute
+- Inference-time compute (chain-of-thought): alternative to training-time scale
+- Conclusion: scaling continues, but the form is changing
+
+What This Means for AI Knowledge Management:
+- Static knowledge bases become outdated within months
+- Need for systems that can be updated incrementally (like data_update.py)
+- Citation and source tracking essential for verifying currency of information
+- The RAG system itself is a response to the knowledge management challenge

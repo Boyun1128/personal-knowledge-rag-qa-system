@@ -1,0 +1,95 @@
+Title: Sentence Transformers: Free Local Embedding Models for RAG
+Source: https://www.sbert.net/ (official documentation) and Hugging Face
+Source Type: Official Technical Documentation
+Category: RAG / Retrieval / Knowledge Systems, Fine-tuning / Inference / Serving
+Date: 2024-2025
+
+Sentence Transformers is a Python framework for state-of-the-art sentence, text, and image embeddings. It provides free, local embedding models that are essential for cost-free RAG systems.
+
+What is Sentence Transformers:
+- Python library maintained by Hugging Face
+- Provides 15,000+ pre-trained embedding models
+- Runs completely locally — no API key required
+- Models downloaded automatically from Hugging Face Hub
+- Returns dense vector representations of text
+
+Installation:
+```
+pip install sentence-transformers
+```
+
+Key Models for RAG:
+
+paraphrase-multilingual-MiniLM-L12-v2:
+- Dimensions: 384
+- Languages: 50+ (including Chinese, Japanese, Korean, English)
+- Size: ~420MB
+- Speed: fast
+- Best for: multilingual content, Chinese-English mixed data
+- Recommended for HW3 (AI tech content often mixes English terms with Chinese)
+
+all-MiniLM-L6-v2:
+- Dimensions: 384
+- Languages: English primarily
+- Size: ~80MB
+- Speed: very fast
+- Best for: English-only content, speed-critical applications
+
+all-mpnet-base-v2:
+- Dimensions: 768
+- Languages: English primarily
+- Size: ~420MB
+- Speed: moderate
+- Best for: highest quality English embeddings
+
+nomic-embed-text (via Ollama):
+- Dimensions: 768
+- Languages: English primarily
+- Requires Ollama installation
+- Best for: users with existing Ollama setup
+
+Usage Example:
+```python
+from sentence_transformers import SentenceTransformer
+
+# Load model (downloads automatically on first use)
+model = SentenceTransformer("paraphrase-multilingual-MiniLM-L12-v2")
+
+# Encode texts
+texts = ["AI is evolving rapidly", "模型迭代速度極快"]
+embeddings = model.encode(texts)  # Returns numpy array
+
+# Shape: (2, 384) — 2 texts, 384 dimensions each
+print(embeddings.shape)
+```
+
+Why Local Embeddings Matter:
+1. Cost: completely free, no API charges
+2. Privacy: data never leaves your machine
+3. Latency: no network round-trip
+4. Reliability: no API rate limits or outages
+5. Reproducibility: same model version = same embeddings
+
+Embedding Quality Considerations:
+- Semantic similarity: similar meaning → similar vectors
+- Cross-lingual: multilingual models align concepts across languages
+- Domain adaptation: general models may underperform on specialized domains
+- Fine-tuning: possible but usually not necessary for RAG
+
+Practical Notes for HW3:
+- First run downloads model (~420MB for multilingual model)
+- Subsequent runs use cached model (fast startup)
+- Batch encoding is more efficient than encoding one at a time
+- model.encode() returns numpy arrays; convert to list for ChromaDB
+
+Determinism:
+- Same input text → same embedding vector (deterministic)
+- Enables content-hash-based deduplication
+- Chunk ID = {filename}_{chunk_index} is sufficient for idempotency
+
+The Embedding Landscape:
+- New embedding models released regularly
+- MTEB (Massive Text Embedding Benchmark) tracks state-of-the-art
+- Multilingual models improving rapidly
+- Specialized domain models (medical, legal, code) available
+- The "best" embedding model for a specific task changes over time

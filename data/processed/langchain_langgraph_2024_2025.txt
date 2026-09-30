@@ -1,0 +1,95 @@
+Title: LangChain and LangGraph: Building LLM Applications and Agents
+Source: https://python.langchain.com/docs/ and https://langchain-ai.github.io/langgraph/
+Source Type: Official Technical Documentation
+Category: Agent / Tool Use / Workflow Automation, RAG / Retrieval / Knowledge Systems
+Date: 2024-2025
+
+LangChain and LangGraph are the most widely adopted frameworks for building LLM-powered applications, RAG systems, and AI agents.
+
+LangChain Overview:
+- Python and JavaScript library for LLM application development
+- Abstractions for: models, prompts, chains, memory, tools, agents
+- Integrations: 100+ LLM providers, vector stores, tools
+- Most popular LLM framework by GitHub stars and usage
+
+Core LangChain Concepts:
+
+Chains:
+- Sequences of LLM calls and transformations
+- LCEL (LangChain Expression Language): composable pipeline syntax
+- Example: prompt | llm | output_parser
+
+Retrieval:
+- Document loaders: PDF, web, database, etc.
+- Text splitters: chunking strategies
+- Embeddings: integration with sentence-transformers, OpenAI, etc.
+- Vector stores: ChromaDB, pgvector, Qdrant, FAISS
+- Retrievers: similarity search, MMR, contextual compression
+
+Agents:
+- ReAct agent: reasoning + acting
+- Tool-calling agent: uses function calling
+- Custom agents: define your own reasoning loop
+
+Memory:
+- ConversationBufferMemory: full history
+- ConversationSummaryMemory: summarized history
+- VectorStoreRetrieverMemory: semantic memory
+
+LangGraph:
+- Graph-based framework for stateful, multi-actor applications
+- Nodes: processing steps (LLM calls, tool calls, etc.)
+- Edges: transitions between nodes (conditional or fixed)
+- State: shared state passed between nodes
+- Cycles: supports loops for iterative reasoning
+
+LangGraph Use Cases:
+- Multi-step agents with complex control flow
+- Human-in-the-loop workflows
+- Multi-agent systems
+- Stateful conversation management
+- Interrupt and resume workflows
+
+RAG with LangChain:
+```python
+from langchain_community.vectorstores import Chroma
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.chains import RetrievalQA
+
+# Setup
+embeddings = HuggingFaceEmbeddings(model_name="paraphrase-multilingual-MiniLM-L12-v2")
+vectorstore = Chroma(persist_directory="./chroma_db", embedding_function=embeddings)
+retriever = vectorstore.as_retriever(search_kwargs={"k": 5})
+
+# RAG chain
+qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
+```
+
+LangSmith (Observability):
+- Tracing and monitoring for LangChain applications
+- Debug complex agent workflows
+- Production monitoring and alerting
+- Prompt management and versioning
+
+The LangChain Ecosystem Challenge:
+- LangChain has undergone major API changes (v0.1, v0.2, v0.3)
+- Breaking changes require updating existing code
+- Documentation sometimes lags behind code changes
+- Community has mixed feelings about complexity
+- Alternative: build RAG from scratch (more control, less abstraction)
+
+Why LangChain/LangGraph Matters:
+- Largest community and most integrations
+- Fastest way to prototype LLM applications
+- LangGraph enables complex agent workflows
+- LangSmith provides production observability
+- Despite criticism, remains the most widely used framework
+
+The Framework Landscape is Evolving:
+- LangChain: general-purpose, most integrations
+- LlamaIndex: RAG-focused, strong data connectors
+- Haystack: production RAG pipelines
+- CrewAI: multi-agent orchestration
+- AutoGen: conversational multi-agent
+- New frameworks emerge regularly
+- The "best" framework for a specific use case changes over time

@@ -1,0 +1,90 @@
+Title: AI Coding Tools and Developer Assistants in 2025-2026
+Source: Multiple sources including leadion.ai/blog/2026-ai-tools-recommendation/ and technical reviews
+Source Type: Technical Overview Article
+Category: AI Coding Tools, Trend Signals / Important Releases
+Date: 2025-2026
+
+AI coding tools have transformed software development workflows. This document covers the major AI coding assistants, their capabilities, and the rapidly evolving landscape.
+
+Major AI Coding Assistants:
+
+GitHub Copilot:
+- Most widely adopted AI coding assistant
+- Powered by OpenAI Codex / GPT-4
+- IDE integration: VS Code, JetBrains, Neovim, Visual Studio
+- Features: code completion, chat, code review, PR summaries
+- Copilot Workspace: AI-powered development environment
+- Enterprise: code security scanning, custom models
+
+Cursor:
+- AI-first code editor (fork of VS Code)
+- Deep codebase understanding
+- Multi-file editing with context
+- Composer: autonomous multi-file changes
+- Supports: GPT-4, Claude, custom models
+- Growing rapidly in developer adoption
+
+Kiro (Amazon):
+- Agentic coding assistant
+- Spec-driven development workflow
+- Hooks for automated actions
+- Steering files for project context
+- Integrated with AWS services
+
+Claude (Anthropic) for Coding:
+- Strong code generation and analysis
+- Long context window (200K tokens) for large codebases
+- Artifacts: interactive code previews
+- Computer use: can interact with development environments
+
+Gemini Code Assist:
+- Google's coding assistant
+- Integration with Google Cloud and Workspace
+- Powered by Gemini models
+- Enterprise features for large codebases
+
+Aider:
+- Open-source AI pair programmer
+- Terminal-based, works with any LLM
+- Git integration: automatic commits
+- Supports: GPT-4, Claude, Gemma, local models
+
+Continue.dev:
+- Open-source Copilot alternative
+- VS Code and JetBrains extension
+- Supports local models via Ollama
+- Customizable with any LLM backend
+
+Key Capabilities Comparison:
+
+Code Completion:
+- All major tools support inline completion
+- Quality varies significantly by language and task
+- Python, JavaScript, TypeScript: best support
+- Niche languages: variable quality
+
+Chat and Explanation:
+- Explain code, debug errors, suggest improvements
+- Context-aware: understands surrounding code
+- Multi-turn conversations about codebase
+
+Autonomous Agents:
+- Devin (Cognition): first "AI software engineer"
+- SWE-agent: academic benchmark for autonomous coding
+- OpenHands (formerly OpenDevin): open-source autonomous coding
+- These can write, test, and debug code autonomously
+
+Trends in AI Coding Tools (2025):
+1. Agentic coding: from completion to autonomous task execution
+2. Codebase understanding: tools that understand entire repositories
+3. Test generation: automatic test writing
+4. Code review: AI-powered PR review
+5. Documentation: automatic docstring and README generation
+6. Security scanning: AI-powered vulnerability detection
+
+The Pace of Change:
+- New AI coding tools launch monthly
+- Existing tools add major features weekly
+- The "best" tool for a specific task changes frequently
+- Developers must continuously re-evaluate their toolchain
+- Integration between tools is becoming more important than individual tools

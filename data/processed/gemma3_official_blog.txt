@@ -1,0 +1,62 @@
+Title: Gemma 3: Google's New Open Model Based on Gemini 2.0
+Source: https://blog.google/technology/developers/gemma-3/
+Source Type: Official Google Blog
+Category: Google Gemma Updates, LLM / Foundation Models, Multimodal Models
+Date: March 12, 2025
+
+Gemma 3 is a collection of lightweight, state-of-the-art open models designed to run on devices. It outperforms other models in its size class, making it ideal for single-GPU or TPU applications.
+
+Key Features of Gemma 3:
+
+Multimodal Capabilities:
+- Supports vision-language input: processes both images and text
+- The 4B, 12B, and 27B parameter models handle image + text input
+- The 1B variant is text-only
+- Enables applications that analyze images, text, and short videos
+
+Context and Language:
+- Context window up to 128K tokens (significant increase from previous versions)
+- Supports over 140 languages
+- Improved multilingual understanding and generation
+
+Model Sizes and Use Cases:
+- 1B: Ultra-lightweight, text-only, suitable for on-device deployment
+- 4B: Balanced multimodal model for edge devices
+- 12B: Strong performance for server-side applications
+- 27B: Highest capability, single-GPU deployable
+
+Technical Improvements over Gemma 2:
+- Based on Gemini 2.0 technology
+- Improved math and reasoning capabilities
+- Better structured output generation
+- Native function calling support
+- Enhanced chat capabilities
+
+Deployment and Availability:
+- Available on Hugging Face (google/gemma-3-1b-it, google/gemma-3-4b-it, etc.)
+- Available on Kaggle
+- Available on Google Cloud Vertex AI
+- Compatible with popular inference frameworks: vLLM, Ollama, llama.cpp, MLX
+- Supported by Hugging Face Transformers
+
+ShieldGemma 2:
+- Released alongside Gemma 3
+- Safety classification model
+- Helps developers build safer AI applications
+
+Developer Guide Highlights:
+- Gemma 3 introduces structured outputs for reliable JSON generation
+- Function calling enables tool-use applications
+- Long context window enables document analysis and multi-document reasoning
+- Multilingual support makes it suitable for global applications
+
+Benchmark Performance:
+- Outperforms models of similar size class on standard benchmarks
+- Strong performance on MMLU, HumanEval, and reasoning benchmarks
+- Competitive with models 2-3x its parameter count
+
+Why Gemma 3 Matters for AI Rapid Evolution:
+- Demonstrates how quickly open-weight model capabilities are advancing
+- 128K context window was previously only available in large commercial models
+- Multimodal capabilities now accessible in lightweight, locally-deployable models
+- Represents the compression of frontier capabilities into smaller, more accessible models

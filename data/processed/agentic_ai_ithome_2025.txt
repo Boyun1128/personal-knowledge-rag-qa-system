@@ -1,0 +1,61 @@
+Title: 資策會公布 2026 年十大 AI 關鍵技術：代理式 AI 與實體應用
+Source: https://www.ithome.com.tw/news/172987
+Source Type: Technical News Article (Traditional Chinese)
+Category: Agent / Tool Use / Workflow Automation, Trend Signals / Important Releases
+Date: December 22, 2025
+
+資策會（Institute for Information Industry）公布 2026 年十大 AI 關鍵技術，其中「代理式 AI（Agentic AI）」名列前茅。
+
+代理式 AI 的定義與特徵：
+- 目標導向：能自主設定並追求目標
+- 自主決策：根據環境反饋調整策略
+- 與環境互動：能感知並影響數位或實體環境
+- 持續學習：從互動中改善行為
+
+為何代理式 AI 是 2026 年關鍵技術：
+
+技術成熟度：
+- LLM 推理能力大幅提升（GPT-4o、Claude 3.5、Gemini 2.0）
+- 工具調用（Function Calling）標準化
+- 多模態感知能力（視覺、語音）
+- 長上下文窗口（128K+）支援複雜任務
+
+基礎設施就緒：
+- 向量資料庫普及（ChromaDB、pgvector）
+- Agent 框架成熟（LangGraph、CrewAI）
+- 雲端 AI 服務降價
+- 邊緣推論硬體改善
+
+企業需求驅動：
+- 人力成本壓力
+- 數位轉型加速
+- 競爭壓力推動 AI 採用
+- ROI 案例逐漸清晰
+
+十大 AI 關鍵技術（部分）：
+1. 代理式 AI（Agentic AI）
+2. 多模態 AI（Multimodal AI）
+3. 小型語言模型（Small Language Models）
+4. AI 安全與治理
+5. 實體 AI（Physical AI / Robotics）
+6. 推理模型（Reasoning Models）
+7. 個人化 AI
+8. AI 基礎設施優化
+
+代理式 AI 的實體世界應用：
+- 工業機器人：AI 驅動的自主製造
+- 自動駕駛：感知-決策-行動循環
+- 智慧建築：環境感知與自動調節
+- 醫療輔助：診斷建議與治療規劃
+
+台灣 AI 發展脈絡：
+- 台灣在 AI 硬體（NVIDIA 供應鏈）具優勢
+- 軟體與應用層面積極追趕
+- 政府推動 AI 應用落地
+- 企業 AI 採用率快速提升
+
+對研究者的啟示：
+- 代理式 AI 是當前最值得追蹤的技術方向之一
+- RAG + Agent 的組合是實用的研究切入點
+- 台灣本地資料來源（ithome.com.tw）提供在地視角
+- 技術趨勢報告幫助研究者確認研究方向的市場價值

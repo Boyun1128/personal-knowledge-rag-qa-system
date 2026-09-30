@@ -1,0 +1,93 @@
+Title: LLM Fine-tuning Methods and Frameworks in 2024-2025
+Source: Multiple technical sources
+Source Type: Technical Overview
+Category: Fine-tuning / Inference / Serving
+Date: 2024-2025
+
+Fine-tuning large language models has become more accessible with parameter-efficient methods that reduce compute and memory requirements dramatically.
+
+Why Fine-tune:
+- Adapt general models to specific domains or tasks
+- Improve performance on narrow, well-defined tasks
+- Reduce inference costs (smaller specialized model vs. large general model)
+- Enable on-premise deployment with proprietary data
+- Customize model behavior and output format
+
+Parameter-Efficient Fine-tuning (PEFT):
+
+LoRA (Low-Rank Adaptation):
+- Adds small trainable matrices to frozen model weights
+- Typical rank: 4-64 (much smaller than full weight matrices)
+- Memory reduction: 10-100x vs. full fine-tuning
+- Quality: near-full fine-tuning performance on most tasks
+- Most widely used PEFT method
+
+QLoRA (Quantized LoRA):
+- Combines 4-bit quantization with LoRA
+- Enables fine-tuning 65B models on a single 48GB GPU
+- Minimal quality loss vs. full precision LoRA
+- Democratized fine-tuning of large models
+
+DoRA (Weight-Decomposed LoRA):
+- Decomposes weights into magnitude and direction
+- Improved performance over standard LoRA
+- 2024 advancement
+
+Prefix Tuning / Prompt Tuning:
+- Add trainable tokens to input
+- Even more parameter-efficient than LoRA
+- Lower quality ceiling than LoRA
+
+Fine-tuning Frameworks:
+
+Hugging Face PEFT:
+- Official PEFT library
+- Supports LoRA, QLoRA, prefix tuning, and more
+- Integrates with Transformers and Accelerate
+
+Unsloth:
+- 2-5x faster fine-tuning than standard methods
+- Lower memory usage
+- Supports Llama, Gemma, Mistral, Phi
+- Popular for consumer GPU fine-tuning
+
+LLaMA Factory:
+- Comprehensive fine-tuning framework
+- Web UI for no-code fine-tuning
+- Supports many models and PEFT methods
+
+Axolotl:
+- Flexible fine-tuning configuration
+- YAML-based configuration
+- Supports distributed training
+
+Fine-tuning Gemma:
+
+Gemma 3 Fine-tuning:
+- Supported via Hugging Face PEFT + Transformers
+- LoRA fine-tuning on consumer GPUs (RTX 3090 for 4B model)
+- Vertex AI managed fine-tuning available
+- Kaggle notebooks with free GPU for experimentation
+
+FunctionGemma Fine-tuning:
+- Designed specifically for fine-tuning on function schemas
+- Smaller base (270M) enables fine-tuning on CPU
+- Target: specialized function-calling agents
+
+Data Requirements:
+- Instruction fine-tuning: 1K-100K examples
+- Domain adaptation: 10K-1M documents
+- Quality > quantity for instruction tuning
+- Data format: instruction-response pairs (Alpaca, ShareGPT formats)
+
+Evaluation After Fine-tuning:
+- Task-specific benchmarks
+- Human evaluation
+- Comparison with base model
+- Regression testing on general capabilities
+
+The Fine-tuning Landscape is Evolving:
+- New PEFT methods published monthly
+- Framework updates break existing workflows
+- Best practices change as new methods emerge
+- The "right" approach for a specific task requires continuous research

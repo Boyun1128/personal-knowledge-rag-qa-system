@@ -1,0 +1,142 @@
+{
+  "agentic_ai_ithome_2025.txt": {
+    "md5": "67d0b3f0e0ed739e3f7a417a90a0ea1b",
+    "chunk_count": 3,
+    "indexed": true
+  },
+  "ai_agent_enterprise_2026.txt": {
+    "md5": "ffa3ce729ac30bdd53f2ed168f88219b",
+    "chunk_count": 4,
+    "indexed": true
+  },
+  "ai_coding_tools_2025.txt": {
+    "md5": "c1296b4b49d907ceb5ef6f9d1e5b59e5",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "ai_index_2025_stanford.txt": {
+    "md5": "18d6f2400973edcc5ffa56fc98158cb2",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "deepseek_r1_disruption.txt": {
+    "md5": "0caad43f50d22d3775f94df89cdaf16f",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "fine_tuning_methods_2024_2025.txt": {
+    "md5": "7aac16f664780d7866a921576a1ba8e0",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "functiongemma_model_card.txt": {
+    "md5": "4c0470c41bb23baab36d38686f3f70df",
+    "chunk_count": 6,
+    "indexed": true
+  },
+  "gemma3_official_blog.txt": {
+    "md5": "5fb0fcf4872c09dde815962b9365ec89",
+    "chunk_count": 6,
+    "indexed": true
+  },
+  "gemma3n_on_device_2025.txt": {
+    "md5": "4531e0df728b1e841b5aa45f722bd7c8",
+    "chunk_count": 6,
+    "indexed": true
+  },
+  "gemma4_release.txt": {
+    "md5": "350cc1eab41932dd28eaa7889ac9d6d8",
+    "chunk_count": 6,
+    "indexed": true
+  },
+  "gemma_releases_official.txt": {
+    "md5": "ece19cac8d6db313ef94e1adab725d80",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "gemma_vertex_ai_deployment.txt": {
+    "md5": "4a8ff8dda7b619fc3552d5af3a053200",
+    "chunk_count": 6,
+    "indexed": true
+  },
+  "huggingface_ecosystem_2025.txt": {
+    "md5": "d6ec298b6dee8aa74d448c51454ab610",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "knowledge_management_ai_era.txt": {
+    "md5": "b0103965c4615cdf09a04b1f7792fa02",
+    "chunk_count": 8,
+    "indexed": true
+  },
+  "langchain_langgraph_2024_2025.txt": {
+    "md5": "6ad3e5a74d1f381f1348c909646395a5",
+    "chunk_count": 8,
+    "indexed": true
+  },
+  "litellm_unified_llm_interface.txt": {
+    "md5": "64cd37ad274758010b8c534106750c9a",
+    "chunk_count": 8,
+    "indexed": true
+  },
+  "llm_agent_survey_2025.txt": {
+    "md5": "811831a5cf69e38dc14ad694f3aba261",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "llm_benchmark_evaluation_2025.txt": {
+    "md5": "f21beb4ddf53ca363d76b07b7b15771a",
+    "chunk_count": 8,
+    "indexed": true
+  },
+  "llm_evolution_pace_2024_2026.txt": {
+    "md5": "29b0d82e0052962b3fc6cd4ba6b07011",
+    "chunk_count": 8,
+    "indexed": true
+  },
+  "llm_inference_serving_2025.txt": {
+    "md5": "05ab53d37b0b91eebe8f754c66ade6db",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "mcp_tool_protocol_2024.txt": {
+    "md5": "c7ea030c290a9ea85175c0076e165d57",
+    "chunk_count": 8,
+    "indexed": true
+  },
+  "multimodal_models_2024_2025.txt": {
+    "md5": "b5203b6d6fbfcfd9ad82563c03ad2377",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "open_source_llm_ecosystem_2025.txt": {
+    "md5": "6704e329283317246b5d2a6394b88a67",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "rag_survey_2024_2025.txt": {
+    "md5": "ed4399bec2bc07b8962224a0be199331",
+    "chunk_count": 8,
+    "indexed": true
+  },
+  "reasoning_models_2024_2025.txt": {
+    "md5": "faf64aa4a7c36ad12ae7140cc6dcbbc4",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "sentence_transformers_embedding.txt": {
+    "md5": "03696db645d68ce812fe0c936bd5fdc4",
+    "chunk_count": 7,
+    "indexed": true
+  },
+  "t5gemma2_release.txt": {
+    "md5": "c3545a104ad97e66156a9fe64449c88a",
+    "chunk_count": 6,
+    "indexed": true
+  },
+  "vector_databases_comparison_2025.txt": {
+    "md5": "7bdd68e0b1cad4f80a3e0c4e81638f49",
+    "chunk_count": 9,
+    "indexed": true
+  }
+}
